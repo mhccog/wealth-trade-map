@@ -282,6 +282,20 @@ function finishConnect(id) {
 }
 
 /* ---------------- dialogs ---------------- */
+// Every delete/remove/reset goes through askConfirm(); no native browser dialogs.
+function askConfirm(title, detail, okLabel) {
+  return new Promise(resolve => {
+    const d = $('#cfm');
+    d.innerHTML = `<form method="dialog" class="cfmform"><h2>${esc(title)}</h2>${detail ? `<p>${esc(detail)}</p>` : ''}<div class="btns"><button type="button" value="cancel" class="btn ghost">Cancel</button><button type="button" value="ok" class="btn del">${esc(okLabel || 'Delete')}</button></div></form>`;
+    let done = false;
+    const onKey = e => { if (e.key === 'Escape') { e.preventDefault(); finish(false); } else if (e.key === 'Enter') { e.preventDefault(); finish(true); } };
+    const finish = v => { if (done) return; done = true; d.removeEventListener('keydown', onKey); d.onclick = null; d.oncancel = null; if (d.open) d.close(); resolve(v); };
+    d.addEventListener('keydown', onKey);
+    d.oncancel = e => { e.preventDefault(); finish(false); };
+    d.onclick = e => { if (e.target === d) { finish(false); return; } const b = e.target.closest('button'); if (b) finish(b.value === 'ok'); };
+    d.showModal(); d.querySelector('button[value=cancel]').focus();
+  });
+}
 function dialog(html, onOk, onCancel) {
   const d = $('#dlg'), f = $('#dlgform'); f.innerHTML = html;
   f.onsubmit = async e => { e.preventDefault(); const v = e.submitter && e.submitter.value; if (v === 'cancel') { d.close(); onCancel && onCancel(); return; } const ok = await onOk(f, v); if (ok !== false) d.close(); };
@@ -324,8 +338,8 @@ function editTown(name) {
   const n = S.businesses.filter(b => b.town === name).length;
   dialog(`<h2>${esc(name)}</h2><label>Rename</label><input name="t" value="${esc(name)}" required>
     <div class="btns"><button value="del" class="btn danger" formnovalidate>Delete town${n ? ` and its ${n} business${n > 1 ? 'es' : ''}` : ''}</button><button value="cancel" class="btn ghost" formnovalidate>Cancel</button><button value="ok" class="btn primary">Save</button></div>`,
-    (f, v) => {
-      if (v === 'del') { if (n && !confirm(`Delete ${name} and its ${n} businesses? (Reset to original can bring them back.)`)) return false; const ids = new Set(S.businesses.filter(b => b.town === name).map(b => b.id)); S.businesses = S.businesses.filter(b => !ids.has(b.id)); S.connections = S.connections.filter(c => !ids.has(c.a) && !ids.has(c.b)); S.towns = S.towns.filter(t => t.name !== name); U.towns.delete(name); commit(); return true; }
+    async (f, v) => {
+      if (v === 'del') { if (!await askConfirm(`Delete "${name}"?`, n ? `This also deletes its ${n} business${n > 1 ? 'es' : ''} and their connections.` : '')) return false; const ids = new Set(S.businesses.filter(b => b.town === name).map(b => b.id)); S.businesses = S.businesses.filter(b => !ids.has(b.id)); S.connections = S.connections.filter(c => !ids.has(c.a) && !ids.has(c.b)); S.towns = S.towns.filter(t => t.name !== name); U.towns.delete(name); commit(); return true; }
       const nn = f.t.value.trim(); if (!nn || nn === name) return true; S.towns.find(t => t.name === name).name = nn; S.businesses.forEach(b => { if (b.town === name) b.town = nn; }); if (U.towns.delete(name)) U.towns.add(nn); commit(); return true;
     });
 }
@@ -336,9 +350,9 @@ function editCat(id) {
     <label>Colour</label><input name="color" type="color" value="${esc(c.color)}">
     <div class="btns">${id ? `<button value="del" class="btn danger" formnovalidate>Delete</button>` : ''}<button value="cancel" class="btn ghost" formnovalidate>Cancel</button><button value="ok" class="btn primary">Save</button></div>
     ${id && n ? `<p class="hint">Deleting moves its ${n} businesses to “Other”.</p>` : ''}`,
-    (f, v) => {
+    async (f, v) => {
       if (v === 'del') {
-        if (!confirm('Delete this category?')) return false;
+        if (!await askConfirm(`Delete "${c.name}"?`, n ? `Its ${n} business${n > 1 ? 'es' : ''} will move to “Other”.` : '')) return false;
         if (n) { if (!S.categories.some(x => x.id === 'other')) S.categories.push({ id: 'other', name: 'Other', group: 'Services', color: '#8a8178', bullets: [] }); S.businesses.forEach(b => { if (b.cat === id) b.cat = 'other'; }); }
         S.categories = S.categories.filter(x => x.id !== id || id === 'other' && n); U.cats.delete(id); commit(); return true;
       }
@@ -373,14 +387,14 @@ document.addEventListener('click', e => {
     case 'open': setTab('list'); U.sel = id; render(); setTimeout(() => $(`.card[data-id="${CSS.escape(id)}"]`)?.scrollIntoView({ block: 'center', behavior: 'smooth' }), 60); break;
     case 'connect': U.connectFrom ? finishConnect(id) : startConnect(id); break;
     case 'cancelconnect': U.connectFrom = null; renderConnectBar(); break;
-    case 'dellink': if (confirm('Remove this connection?')) { S.connections = S.connections.filter(l => l.id !== a.dataset.link); commit(); } break;
+    case 'dellink': { const lid = a.dataset.link, l = S.connections.find(x => x.id === lid); const A = l && bizBy(l.a), B = l && bizBy(l.b); askConfirm(`Delete "${A ? A.name : '?'} ↔ ${B ? B.name : '?'}"?`, 'This removes the connection between them.').then(ok => { if (ok) { S.connections = S.connections.filter(x => x.id !== lid); commit(); } }); break; }
     case 'editlink': { const l = S.connections.find(x => x.id === a.dataset.link); dialog(`<h2>Connection note</h2><textarea name="n" rows="3">${esc(l.note || '')}</textarea><div class="btns"><button value="cancel" class="btn ghost" formnovalidate>Cancel</button><button value="ok" class="btn primary">Save</button></div>`, f => { l.note = f.n.value.trim(); commit(); return true; }); break; }
     case 'showlink': { const l = S.connections.find(x => x.id === a.dataset.link); const A = bizBy(l.a), B = bizBy(l.b); if (mobile()) setTab('map'); if (mapReady && A && B) map.fitBounds([[Math.min(A.lng, B.lng), Math.min(A.lat, B.lat)], [Math.max(A.lng, B.lng), Math.max(A.lat, B.lat)]], { padding: 80, maxZoom: 12 }); break; }
     case 'addbiz': addBusiness(); break;
-    case 'delbiz': { const b = bizBy(id); if (confirm(`Delete ${b.name}?`)) { S.businesses = S.businesses.filter(x => x.id !== id); S.connections = S.connections.filter(l => l.a !== id && l.b !== id); commit(); } break; }
+    case 'delbiz': { const b = bizBy(id); askConfirm(`Delete "${b.name}"?`, 'Its connections are removed too.').then(ok => { if (!ok) return; S.businesses = S.businesses.filter(x => x.id !== id); S.connections = S.connections.filter(l => l.a !== id && l.b !== id); commit(); }); break; }
     case 'relocate': { const b = bizBy(id); geocode(b.address, b.town).then(ll => { if (ll) { b.lat = +ll[0].toFixed(5); b.lng = +ll[1].toFixed(5); commit(); pick(id); toast('Pin moved'); } else toast('Couldn’t find that address'); }); break; }
     case 'addbullet': { const arr = getPath(a.dataset.path2) || []; arr.push('New point'); setPath(a.dataset.path2, arr); commit(); const els = $$(`[data-path^="${a.dataset.path2}."]`); const last = els[els.length - 1]; if (last) { last.focus(); document.getSelection().selectAllChildren(last); } break; }
-    case 'delbullet': { const arr = getPath(a.dataset.path2); arr.splice(+a.dataset.j, 1); commit(); break; }
+    case 'delbullet': { const p2 = a.dataset.path2, j = +a.dataset.j, arr = getPath(p2); askConfirm(`Delete "${String(arr[j]).slice(0, 80)}"?`, '').then(ok => { if (ok) { getPath(p2).splice(j, 1); commit(); } }); break; }
     case 'filtercat': U.cats = new Set([a.dataset.cat]); setTab(mobile() ? 'map' : 'list'); render(); fitVisible(); break;
     case 'editcat': editCat(a.dataset.cat); break;
     case 'addcat': editCat(null); break;
@@ -388,7 +402,7 @@ document.addEventListener('click', e => {
     case 'export': { const blob = new Blob([JSON.stringify(S, null, 1)], { type: 'application/json' }); const u = URL.createObjectURL(blob); const x = document.createElement('a'); x.href = u; x.download = `wealth-trade-map-${new Date().toISOString().slice(0, 10)}.json`; document.body.appendChild(x); x.click(); x.remove(); setTimeout(() => URL.revokeObjectURL(u), 2000); break; }
     case 'import': $('#file').click(); break;
     case 'sync': syncDialog(); break;
-    case 'reset': if (confirm('Reset everything to the original list? Your edits and connections will be replaced (on all devices).')) fetch('data.original.json', { cache: 'no-store' }).then(r => r.json()).then(d => { S = normalise(d); U.towns.clear(); U.cats.clear(); U.sel = null; commit(); toast('Reset to original'); }); break;
+    case 'reset': askConfirm('Reset to original?', 'All your edits and connections will be replaced with the original list, on every device.', 'Reset').then(ok => ok && fetch('data.original.json', { cache: 'no-store' }).then(r => r.json()).then(d => { S = normalise(d); U.towns.clear(); U.cats.clear(); U.sel = null; commit(); toast('Reset to original'); })); break;
   }
 }, true);
 document.addEventListener('input', e => {
@@ -402,7 +416,7 @@ document.addEventListener('change', e => {
   const s = e.target;
   if (s.dataset.bizcat) { bizBy(s.dataset.bizcat).cat = s.value; commit(); }
   if (s.dataset.biztown) { const b = bizBy(s.dataset.biztown); if (s.value === '__new') { const n = prompt('New town name'); if (n && n.trim()) { townCoords(n.trim()).then(ll => { if (!S.towns.some(t => t.name === n.trim())) S.towns.push({ name: n.trim(), lat: ll ? ll[0] : b.lat, lng: ll ? ll[1] : b.lng }); b.town = n.trim(); commit(); }); } else render(); } else { b.town = s.value; commit(); } }
-  if (s.id === 'file' && s.files[0]) { s.files[0].text().then(t => { try { const d = JSON.parse(t); if (!Array.isArray(d.businesses)) throw 0; S = normalise(d); commit(); toast('Imported'); } catch (err) { toast('That file isn’t a Wealth Trade Map export'); } s.value = ''; }); }
+  if (s.id === 'file' && s.files[0]) { s.files[0].text().then(t => { try { const d = JSON.parse(t); if (!Array.isArray(d.businesses)) throw 0; askConfirm('Replace everything with this file?', 'Your current businesses and connections will be replaced by the imported ones.', 'Replace').then(ok => { if (ok) { S = normalise(d); commit(); toast('Imported'); } }); } catch (err) { toast('That file isn’t a Wealth Trade Map export'); } s.value = ''; }); }
 });
 $('#q').addEventListener('input', e => { U.q = e.target.value; renderList(); renderCounts(); applyEditable(); addRelabels(); renderMap(); });
 $('#tq').addEventListener('input', e => { U.tq = e.target.value; renderTowns(); addRelabels(); });
