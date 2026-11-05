@@ -98,7 +98,7 @@ async function boot() {
   try { shipped = await (await fetch('data.json', { cache: 'no-store' })).json(); } catch (e) { }
   const local = JSON.parse(localStorage.getItem(LS.local) || 'null');
   if (local && local.data) { S = normalise(local.data); REV = local.rev || 0; DIRTY = !!local.dirty; } else S = normalise(shipped);
-  render(); initMap();
+  render(); fitMapBox(); initMap(); setTimeout(fitMapBox, 300);
   if (localStorage.getItem(LS.key)) await pull(true);
   else { setStatus('warn', L('offline')); if (!localStorage.getItem(LS.skip)) askUnlock(); }
   addEventListener('online', () => DIRTY ? schedulePush(200) : pull());
@@ -265,7 +265,9 @@ function pick(id, fromMap) {
   }
   if (!fromMap && card && !mobile()) card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
 }
-function setTab(t) { U.tab = t; $('.main').dataset.tab = t; $$('.bottomnav button').forEach(b => b.classList.toggle('on', b.dataset.tab === t)); if (map) setTimeout(() => map.resize(), 30); }
+function fitMapBox() { const w = $('.mapwrap'); if (!mobile()) { w.style.height = ''; return; } const top = w.getBoundingClientRect().top + scrollY; const nav = $('.bottomnav').offsetHeight || 60; w.style.height = Math.max(300, innerHeight - top - nav) + 'px'; map && map.resize(); }
+addEventListener('resize', () => setTimeout(fitMapBox, 50));
+function setTab(t) { U.tab = t; scrollTo(0, 0); setTimeout(fitMapBox, 10); $('.main').dataset.tab = t; $$('.bottomnav button').forEach(b => b.classList.toggle('on', b.dataset.tab === t)); if (map) setTimeout(() => map.resize(), 30); }
 
 /* ---------------- connections ---------------- */
 function startConnect(id) { U.connectFrom = id; popup?.remove(); renderConnectBar(); toast('Now tap the second business, on the map or in the list'); }
