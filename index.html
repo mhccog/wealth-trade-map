@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Wealth Trade Map</title>
+<meta name="description" content="Real UK businesses that sell what wealthy people buy, on a map and a globe.">
+<meta name="theme-color" content="#f4eee1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%238b2e2a'/%3E%3Cpath d='M32 12l6 14h14l-11 9 4 15-13-9-13 9 4-15-11-9h14z' fill='%23f4eee1'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/maplibre-gl.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1 data-path="meta.title"></h1>
+    <p class="sub" data-path="meta.subtitle"></p>
+  </div>
+  <div class="actions">
+    <div class="seg" role="group" aria-label="Map or globe">
+      <button id="btn-map" class="segbtn" aria-pressed="true"><span data-label="map"></span></button>
+      <button id="btn-globe" class="segbtn" aria-pressed="false"><span data-label="globe"></span></button>
+    </div>
+    <span id="savestate" class="savestate" title="Save status"></span>
+    <button id="btn-edit" class="btn"><span data-label="edit"></span></button>
+    <div class="menuwrap">
+      <button id="btn-menu" class="btn ghost" aria-haspopup="true"><span data-label="menu"></span> ▾</button>
+      <div id="menu" class="menu" hidden>
+        <button data-act="export"><span data-label="exportJ"></span></button>
+        <button data-act="import"><span data-label="importJ"></span></button>
+        <button data-act="sync">Saving &amp; passphrase</button>
+        <hr>
+        <button data-act="reset" class="danger"><span data-label="reset"></span></button>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="banner" class="banner" hidden></div>
+<section class="filters" aria-label="Filters">
+  <div class="frow">
+    <input id="q" type="search" placeholder="Search businesses…" aria-label="Search businesses">
+    <input id="tq" type="search" aria-label="Find a town">
+  </div>
+  <div id="towns" class="chips towns"></div>
+  <div id="cats" class="chips cats"></div>
+</section>
+<main class="main" data-tab="list">
+  <section class="panel">
+    <nav class="tabs" role="tablist">
+      <button data-tab="list" class="tab"><span data-label="list"></span> <b id="count"></b></button>
+      <button data-tab="about" class="tab"><span data-label="about"></span></button>
+      <button data-tab="links" class="tab"><span data-label="links"></span> <b id="lcount"></b></button>
+    </nav>
+    <div id="pane-list" class="pane"></div>
+    <div id="pane-about" class="pane"></div>
+    <div id="pane-links" class="pane"></div>
+  </section>
+  <section class="mapwrap"><div id="map"></div><div id="mapfail" class="mapfail" hidden>The map needs an internet connection. Everything else still works.</div></section>
+</main>
+<nav class="bottomnav">
+  <button data-tab="map">🗺 <span data-label="map"></span></button>
+  <button data-tab="list">☰ <span data-label="list"></span></button>
+  <button data-tab="about">ℹ︎ <span data-label="about"></span></button>
+  <button data-tab="links">↔ <span data-label="links"></span></button>
+</nav>
+<dialog id="dlg"><form method="dialog" id="dlgform"></form></dialog>
+<input type="file" id="file" accept="application/json,.json" hidden>
+<div id="toast" class="toast" hidden></div>
+<script src="vendor/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

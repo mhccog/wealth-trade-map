@@ -1,0 +1,3128 @@
+{
+ "version": 1,
+ "updated": "2026-11-05",
+ "meta": {
+  "title": "The Wealth Trade Map",
+  "subtitle": "Real UK businesses that sell what wealthy people buy. Visit them, learn from them, connect them.",
+  "line": "I connect people who don't know they need each other.",
+  "insightTitle": "What they really pay for",
+  "insight": [
+   "Time, access, privacy and status",
+   "Knowing it is the best, and the real thing",
+   "Discretion: handled quietly, by people they trust",
+   "Above all: trusted curation and introductions"
+  ],
+  "goalTitle": "My plan",
+  "goal": [
+   "Visit every business in person",
+   "Build real relationships and help people",
+   "Earn money by connecting the right people",
+   "Learn from each business and grow into more projects"
+  ],
+  "productsTitle": "Products",
+  "servicesTitle": "Services",
+  "footer": "Business details checked against each business's own website, 5 Nov 2026. Always ring ahead before a visit."
+ },
+ "labels": {
+  "map": "Map",
+  "globe": "Globe",
+  "edit": "Edit",
+  "done": "Done",
+  "menu": "More",
+  "list": "Businesses",
+  "about": "About",
+  "links": "Connections",
+  "allTowns": "All towns",
+  "allCats": "All",
+  "addBiz": "+ Add business",
+  "connect": "Connect",
+  "website": "Website",
+  "call": "Call",
+  "directions": "Directions",
+  "exportJ": "Export JSON",
+  "importJ": "Import JSON",
+  "reset": "Reset to original",
+  "addCat": "+ Add category",
+  "addBullet": "+ Add point",
+  "addTown": "+ Add town",
+  "townSearch": "Find a town…",
+  "noLinks": "No connections yet. Open a business and tap Connect to link it to another.",
+  "showOnMap": "Show on map",
+  "saved": "Saved",
+  "saving": "Saving…",
+  "offline": "Saved on this device"
+ },
+ "categories": [
+  {
+   "id": "rare",
+   "group": "Products",
+   "name": "Rare & one-of-a-kind",
+   "color": "#8b2e2a",
+   "bullets": [
+    "Art, antiques and rare books",
+    "Watches, clocks and jewellery",
+    "Classic cars",
+    "Fine wine and whisky",
+    "Provenance and scarcity matter more than price"
+   ]
+  },
+  {
+   "id": "bespoke",
+   "group": "Products",
+   "name": "Bespoke & handmade",
+   "color": "#b35a1f",
+   "bullets": [
+    "Tailoring, shoes and hats",
+    "Guns, leather goods and saddlery",
+    "Furniture, clocks and bells",
+    "Mills weaving tweed, cashmere and linen",
+    "Old-world makers, often with waiting lists"
+   ]
+  },
+  {
+   "id": "property",
+   "group": "Products",
+   "name": "Property & land",
+   "color": "#2f5d3a",
+   "bullets": [
+    "Country estates and second homes",
+    "Farmland and forestry",
+    "Buying agents who find homes off-market"
+   ]
+  },
+  {
+   "id": "toys",
+   "group": "Products",
+   "name": "Big toys",
+   "color": "#23476b",
+   "bullets": [
+    "Supercars and hand-built cars",
+    "Yachts and boatyards",
+    "Private jets",
+    "Racehorses and bloodstock"
+   ]
+  },
+  {
+   "id": "time",
+   "group": "Services",
+   "name": "Time back",
+   "color": "#6b3d6e",
+   "bullets": [
+    "Concierge",
+    "Household and estate staff",
+    "Chauffeurs",
+    "Private chefs"
+   ]
+  },
+  {
+   "id": "access",
+   "group": "Services",
+   "name": "Access",
+   "color": "#b07d1a",
+   "bullets": [
+    "Private members' clubs",
+    "Introductions to the right people",
+    "Events money can't easily buy"
+   ]
+  },
+  {
+   "id": "wealth",
+   "group": "Services",
+   "name": "Wealth protection",
+   "color": "#4f5b66",
+   "bullets": [
+    "Private banks and wealth managers",
+    "Tax, estate and succession lawyers",
+    "Insurance for homes, cars and collections",
+    "Security and close protection"
+   ]
+  },
+  {
+   "id": "health",
+   "group": "Services",
+   "name": "Health & longevity",
+   "color": "#3f7a76",
+   "bullets": [
+    "Private GPs and hospitals",
+    "Longevity clinics",
+    "Health spas and retreats"
+   ]
+  },
+  {
+   "id": "kids",
+   "group": "Services",
+   "name": "Their kids",
+   "color": "#9a4f6b",
+   "bullets": [
+    "Education consultants",
+    "Tutors",
+    "School and university placement",
+    "Nannies"
+   ]
+  },
+  {
+   "id": "travel",
+   "group": "Services",
+   "name": "Experiences & travel",
+   "color": "#7a5c3e",
+   "bullets": [
+    "Bespoke travel",
+    "Private tours",
+    "Castle and country house stays",
+    "Things money usually can't buy"
+   ]
+  }
+ ],
+ "towns": [
+  {
+   "name": "Alnwick",
+   "lat": 55.4098,
+   "lng": -1.6992
+  },
+  {
+   "name": "Ashorne",
+   "lat": 52.2165,
+   "lng": -1.5054
+  },
+  {
+   "name": "Auchterarder",
+   "lat": 56.2834,
+   "lng": -3.7521
+  },
+  {
+   "name": "Aviemore",
+   "lat": 57.2024,
+   "lng": -3.8193
+  },
+  {
+   "name": "Aylsham",
+   "lat": 52.7927,
+   "lng": 1.2513
+  },
+  {
+   "name": "Badminton",
+   "lat": 51.5425,
+   "lng": -2.2846
+  },
+  {
+   "name": "Bakewell",
+   "lat": 53.2276,
+   "lng": -1.6114
+  },
+  {
+   "name": "Ballantrae",
+   "lat": 55.0836,
+   "lng": -4.9915
+  },
+  {
+   "name": "Banbridge",
+   "lat": 54.3513,
+   "lng": -6.2922
+  },
+  {
+   "name": "Banstead",
+   "lat": 51.3176,
+   "lng": -0.2111
+  },
+  {
+   "name": "Bath",
+   "lat": 51.3802,
+   "lng": -2.3661
+  },
+  {
+   "name": "Beauly",
+   "lat": 57.4829,
+   "lng": -4.4603
+  },
+  {
+   "name": "Belfast",
+   "lat": 54.5922,
+   "lng": -5.9372
+  },
+  {
+   "name": "Bicester",
+   "lat": 51.9142,
+   "lng": -1.1424
+  },
+  {
+   "name": "Birmingham",
+   "lat": 52.4802,
+   "lng": -1.9077
+  },
+  {
+   "name": "Blakeney",
+   "lat": 51.7468,
+   "lng": -2.4735
+  },
+  {
+   "name": "Braemar",
+   "lat": 57.006,
+   "lng": -3.3999
+  },
+  {
+   "name": "Bristol",
+   "lat": 51.4554,
+   "lng": -2.6209
+  },
+  {
+   "name": "Burford",
+   "lat": 51.8096,
+   "lng": -1.6364
+  },
+  {
+   "name": "Cambridge",
+   "lat": 52.1819,
+   "lng": 0.1254
+  },
+  {
+   "name": "Cardiff",
+   "lat": 51.48,
+   "lng": -3.1769
+  },
+  {
+   "name": "Castlemorris",
+   "lat": 51.9724,
+   "lng": -5.0693
+  },
+  {
+   "name": "Chagford",
+   "lat": 50.6746,
+   "lng": -3.8686
+  },
+  {
+   "name": "Cheltenham",
+   "lat": 51.9024,
+   "lng": -2.0798
+  },
+  {
+   "name": "Chichester",
+   "lat": 50.8721,
+   "lng": -0.7396
+  },
+  {
+   "name": "Cirencester",
+   "lat": 51.7163,
+   "lng": -1.9701
+  },
+  {
+   "name": "Colerne",
+   "lat": 51.4546,
+   "lng": -2.2564
+  },
+  {
+   "name": "Cradley Heath",
+   "lat": 52.4686,
+   "lng": -2.0767
+  },
+  {
+   "name": "Crewkerne",
+   "lat": 50.8822,
+   "lng": -2.7916
+  },
+  {
+   "name": "Derby",
+   "lat": 52.9258,
+   "lng": -1.4376
+  },
+  {
+   "name": "Desborough",
+   "lat": 52.4435,
+   "lng": -0.8128
+  },
+  {
+   "name": "Diss",
+   "lat": 52.3771,
+   "lng": 1.108
+  },
+  {
+   "name": "Dunfermline",
+   "lat": 56.0827,
+   "lng": -3.4015
+  },
+  {
+   "name": "Dunkeld",
+   "lat": 56.5648,
+   "lng": -3.6113
+  },
+  {
+   "name": "Edinburgh",
+   "lat": 55.9544,
+   "lng": -3.195
+  },
+  {
+   "name": "Egham",
+   "lat": 51.4102,
+   "lng": -0.6239
+  },
+  {
+   "name": "Elgin",
+   "lat": 57.6492,
+   "lng": -3.3101
+  },
+  {
+   "name": "Etwall",
+   "lat": 52.8973,
+   "lng": -1.5946
+  },
+  {
+   "name": "Exeter",
+   "lat": 50.7159,
+   "lng": -3.5189
+  },
+  {
+   "name": "Falmouth",
+   "lat": 50.1811,
+   "lng": -5.0737
+  },
+  {
+   "name": "Fort William",
+   "lat": 56.8481,
+   "lng": -5.0493
+  },
+  {
+   "name": "Glasgow",
+   "lat": 55.8566,
+   "lng": -4.2754
+  },
+  {
+   "name": "Gloucester",
+   "lat": 51.8175,
+   "lng": -2.1779
+  },
+  {
+   "name": "Harrogate",
+   "lat": 53.9928,
+   "lng": -1.5402
+  },
+  {
+   "name": "Hay-on-Wye",
+   "lat": 52.0746,
+   "lng": -3.1252
+  },
+  {
+   "name": "Henley-on-Thames",
+   "lat": 51.5379,
+   "lng": -0.8992
+  },
+  {
+   "name": "High Wycombe",
+   "lat": 51.6177,
+   "lng": -0.8164
+  },
+  {
+   "name": "Hook Norton",
+   "lat": 52.0096,
+   "lng": -1.4932
+  },
+  {
+   "name": "Ipswich",
+   "lat": 52.0649,
+   "lng": 1.1415
+  },
+  {
+   "name": "Kilburn",
+   "lat": 54.2094,
+   "lng": -1.2137
+  },
+  {
+   "name": "King's Lynn",
+   "lat": 52.7162,
+   "lng": 0.5195
+  },
+  {
+   "name": "Leeds",
+   "lat": 53.7973,
+   "lng": -1.5484
+  },
+  {
+   "name": "Leyburn",
+   "lat": 54.3068,
+   "lng": -1.8154
+  },
+  {
+   "name": "Liverpool",
+   "lat": 53.406,
+   "lng": -2.9883
+  },
+  {
+   "name": "London",
+   "lat": 51.5083,
+   "lng": -0.147
+  },
+  {
+   "name": "Loughborough",
+   "lat": 52.7735,
+   "lng": -1.1992
+  },
+  {
+   "name": "Luton",
+   "lat": 51.8834,
+   "lng": -0.3719
+  },
+  {
+   "name": "Lymington",
+   "lat": 50.7574,
+   "lng": -1.5349
+  },
+  {
+   "name": "Macclesfield",
+   "lat": 53.2663,
+   "lng": -2.1208
+  },
+  {
+   "name": "Malvern",
+   "lat": 52.1239,
+   "lng": -2.3111
+  },
+  {
+   "name": "Manchester",
+   "lat": 53.4802,
+   "lng": -2.247
+  },
+  {
+   "name": "Market Harborough",
+   "lat": 52.4816,
+   "lng": -0.9032
+  },
+  {
+   "name": "Melton Mowbray",
+   "lat": 52.7754,
+   "lng": -1.0307
+  },
+  {
+   "name": "Micheldever",
+   "lat": 51.1501,
+   "lng": -1.25
+  },
+  {
+   "name": "Newbury",
+   "lat": 51.4146,
+   "lng": -1.331
+  },
+  {
+   "name": "Newcastle upon Tyne",
+   "lat": 54.9813,
+   "lng": -1.6383
+  },
+  {
+   "name": "Newmarket",
+   "lat": 52.2364,
+   "lng": 0.371
+  },
+  {
+   "name": "Newport Pagnell",
+   "lat": 52.084,
+   "lng": -0.7163
+  },
+  {
+   "name": "Northampton",
+   "lat": 52.2405,
+   "lng": -0.8827
+  },
+  {
+   "name": "Norwich",
+   "lat": 52.6446,
+   "lng": 1.2884
+  },
+  {
+   "name": "Nottingham",
+   "lat": 52.9441,
+   "lng": -1.1778
+  },
+  {
+   "name": "Oundle",
+   "lat": 52.4815,
+   "lng": -0.4603
+  },
+  {
+   "name": "Oxford",
+   "lat": 51.7533,
+   "lng": -1.2603
+  },
+  {
+   "name": "Perth",
+   "lat": 56.4156,
+   "lng": -3.4759
+  },
+  {
+   "name": "Plymouth",
+   "lat": 50.3691,
+   "lng": -4.1631
+  },
+  {
+   "name": "Poole",
+   "lat": 50.714,
+   "lng": -1.991
+  },
+  {
+   "name": "Princes Risborough",
+   "lat": 51.7209,
+   "lng": -0.8457
+  },
+  {
+   "name": "Rushden",
+   "lat": 52.297,
+   "lng": -0.6148
+  },
+  {
+   "name": "Salisbury",
+   "lat": 51.0689,
+   "lng": -1.7952
+  },
+  {
+   "name": "Sandbach",
+   "lat": 53.1288,
+   "lng": -2.312
+  },
+  {
+   "name": "Shawbost",
+   "lat": 58.3309,
+   "lng": -6.6683
+  },
+  {
+   "name": "Shrewsbury",
+   "lat": 52.7276,
+   "lng": -2.7337
+  },
+  {
+   "name": "Stansted Mountfitchet",
+   "lat": 51.9165,
+   "lng": 0.2015
+  },
+  {
+   "name": "Stokenchurch",
+   "lat": 51.6601,
+   "lng": -0.9149
+  },
+  {
+   "name": "Stourbridge",
+   "lat": 52.4583,
+   "lng": -2.1477
+  },
+  {
+   "name": "Stratford-upon-Avon",
+   "lat": 52.1934,
+   "lng": -1.7096
+  },
+  {
+   "name": "Tetsworth",
+   "lat": 51.7103,
+   "lng": -1.0068
+  },
+  {
+   "name": "Thirsk",
+   "lat": 54.2279,
+   "lng": -1.3769
+  },
+  {
+   "name": "Tisbury",
+   "lat": 51.0676,
+   "lng": -2.0706
+  },
+  {
+   "name": "Tring",
+   "lat": 51.7711,
+   "lng": -0.6279
+  },
+  {
+   "name": "Truro",
+   "lat": 50.2613,
+   "lng": -5.0527
+  },
+  {
+   "name": "Walsall",
+   "lat": 52.6069,
+   "lng": -1.9283
+  },
+  {
+   "name": "Wellingborough",
+   "lat": 52.3235,
+   "lng": -0.684
+  },
+  {
+   "name": "Wellington",
+   "lat": 50.9854,
+   "lng": -3.2421
+  },
+  {
+   "name": "Weybridge",
+   "lat": 51.3531,
+   "lng": -0.4707
+  },
+  {
+   "name": "Witney",
+   "lat": 51.7971,
+   "lng": -1.5054
+  },
+  {
+   "name": "Woking",
+   "lat": 51.3108,
+   "lng": -0.6568
+  },
+  {
+   "name": "York",
+   "lat": 54.084,
+   "lng": -0.91
+  }
+ ],
+ "businesses": [
+  {
+   "id": "lyon-turnbull",
+   "name": "Lyon & Turnbull",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Edinburgh",
+   "address": "33 Broughton Place, Edinburgh EH1 3RR",
+   "phone": "",
+   "url": "https://www.lyonandturnbull.com",
+   "note": "Scotland's oldest auction house, founded 1826.",
+   "lat": 55.95891,
+   "lng": -3.18724
+  },
+  {
+   "id": "tennants-auctioneers",
+   "name": "Tennants Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Leyburn",
+   "address": "The Auction Centre, Harmby Road, Leyburn DL8 5SG",
+   "phone": "01969 623780",
+   "url": "https://www.tennants.co.uk",
+   "note": "One of the UK's largest family-owned auction houses, in the Yorkshire Dales.",
+   "lat": 54.30675,
+   "lng": -1.81538
+  },
+  {
+   "id": "cheffins",
+   "name": "Cheffins",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Cambridge",
+   "address": "Clifton House, Clifton Road, Cambridge CB1 7EA",
+   "phone": "",
+   "url": "https://www.cheffins.co.uk",
+   "note": "Fine art auctioneers and land agents since 1825.",
+   "lat": 52.19091,
+   "lng": 0.13865
+  },
+  {
+   "id": "dreweatts",
+   "name": "Dreweatts",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Newbury",
+   "address": "Donnington Priory, Newbury RG14 2JE",
+   "phone": "",
+   "url": "https://www.dreweatts.com",
+   "note": "Fine art auction house in a country house at Donnington Priory.",
+   "lat": 51.41464,
+   "lng": -1.331
+  },
+  {
+   "id": "woolley-wallis",
+   "name": "Woolley & Wallis",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Salisbury",
+   "address": "51–61 Castle Street, Salisbury SP1 3SU",
+   "phone": "01722 424500",
+   "url": "https://www.woolleyandwallis.co.uk",
+   "note": "Fine art auctioneers in Salisbury since 1884.",
+   "lat": 51.07143,
+   "lng": -1.7971
+  },
+  {
+   "id": "lawrences-auctioneers",
+   "name": "Lawrences Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Crewkerne",
+   "address": "The Linen Yard, South Street, Crewkerne TA18 8AB",
+   "phone": "01460 279969",
+   "url": "https://www.lawrences.co.uk",
+   "note": "Independent fine art auctioneers in Somerset.",
+   "lat": 50.88221,
+   "lng": -2.79161
+  },
+  {
+   "id": "mallams",
+   "name": "Mallams",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Oxford",
+   "address": "Bocardo House, 24A St Michael's Street, Oxford OX1 2EB",
+   "phone": "",
+   "url": "https://www.mallams.co.uk",
+   "note": "Oxford auctioneers since 1788.",
+   "lat": 51.75331,
+   "lng": -1.26027
+  },
+  {
+   "id": "hansons-auctioneers",
+   "name": "Hansons Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Etwall",
+   "address": "Heage Lane, Etwall DE65 6LS",
+   "phone": "",
+   "url": "https://www.hansonsauctioneers.co.uk",
+   "note": "Family-run Derbyshire auction house.",
+   "lat": 52.8973,
+   "lng": -1.59464
+  },
+  {
+   "id": "halls",
+   "name": "Halls",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Shrewsbury",
+   "address": "Halls Holdings House, Bowmen Way, Battlefield, Shrewsbury SY4 3DR",
+   "phone": "",
+   "url": "https://www.hallsgb.com",
+   "note": "Shropshire fine art auctioneers and property agents.",
+   "lat": 52.74888,
+   "lng": -2.71744
+  },
+  {
+   "id": "bearnes-hampton-littlewood",
+   "name": "Bearnes Hampton & Littlewood",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Exeter",
+   "address": "St Edmund's Court, Okehampton Street, Exeter EX4 1DU",
+   "phone": "",
+   "url": "https://www.bhandl.co.uk",
+   "note": "Fine art auctioneers for the South West.",
+   "lat": 50.71799,
+   "lng": -3.53908
+  },
+  {
+   "id": "anderson-garland",
+   "name": "Anderson & Garland",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Newcastle upon Tyne",
+   "address": "Anderson House, Crispin Court, Newbiggin Lane, Westerhope, Newcastle upon Tyne NE5 1BF",
+   "phone": "",
+   "url": "https://www.andersonandgarland.com",
+   "note": "North East auctioneers since 1840.",
+   "lat": 55.00126,
+   "lng": -1.69518
+  },
+  {
+   "id": "sworders",
+   "name": "Sworders",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Stansted Mountfitchet",
+   "address": "Cambridge Road, Stansted Mountfitchet CM24 8GE",
+   "phone": "",
+   "url": "https://www.sworder.co.uk",
+   "note": "Fine art auctioneers since 1782.",
+   "lat": 51.91649,
+   "lng": 0.20147
+  },
+  {
+   "id": "chorley-s",
+   "name": "Chorley's",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Gloucester",
+   "address": "Prinknash Abbey Park, Gloucestershire GL4 8EX",
+   "phone": "01452 344499",
+   "url": "https://www.chorleys.com",
+   "note": "Cotswold fine art auctioneers at Prinknash.",
+   "lat": 51.81753,
+   "lng": -2.17787
+  },
+  {
+   "id": "mellors-kirk",
+   "name": "Mellors & Kirk",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Nottingham",
+   "address": "The Auction House, Gregory Street, Nottingham NG7 2NL",
+   "phone": "0115 979 0000",
+   "url": "https://www.mellorsandkirk.com",
+   "note": "Fine art auctioneers in the East Midlands.",
+   "lat": 52.94408,
+   "lng": -1.17778
+  },
+  {
+   "id": "bamfords-auctioneers",
+   "name": "Bamfords Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Derby",
+   "address": "The Derby Auction House, 46 Nottingham Road, Spondon, Derby DE21 7NL",
+   "phone": "01332 210000",
+   "url": "https://www.bamfords-auctions.co.uk",
+   "note": "Derbyshire auction house and valuers.",
+   "lat": 52.91364,
+   "lng": -1.40682
+  },
+  {
+   "id": "adam-partridge-auctioneers",
+   "name": "Adam Partridge Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Macclesfield",
+   "address": "The Cheshire Saleroom, Withyfold Drive, Macclesfield SK10 2BD",
+   "phone": "",
+   "url": "https://www.adampartridge.co.uk",
+   "note": "Cheshire auctioneers and valuers.",
+   "lat": 53.26633,
+   "lng": -2.12077
+  },
+  {
+   "id": "keys-auctioneers",
+   "name": "Keys Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Aylsham",
+   "address": "Aylsham Salerooms, Palmers Lane, Aylsham NR11 6JA",
+   "phone": "01263 733195",
+   "url": "https://www.keysauctions.co.uk",
+   "note": "Norfolk family auction house.",
+   "lat": 52.79275,
+   "lng": 1.25134
+  },
+  {
+   "id": "ross-s-auctioneers",
+   "name": "Ross's Auctioneers",
+   "cat": "rare",
+   "sub": "Auction house",
+   "town": "Belfast",
+   "address": "37 Montgomery Street, Belfast BT1 4NX",
+   "phone": "028 9032 5448",
+   "url": "https://www.rosss.com",
+   "note": "Northern Ireland's leading auction house, in Belfast for 100 years.",
+   "lat": 54.59698,
+   "lng": -5.92639
+  },
+  {
+   "id": "spink-son",
+   "name": "Spink & Son",
+   "cat": "rare",
+   "sub": "Coins, medals & stamps",
+   "town": "London",
+   "address": "67–69 Southampton Row, Bloomsbury, London WC1B 4ET",
+   "phone": "",
+   "url": "https://www.spink.com",
+   "note": "Coin, medal and stamp specialists since 1666.",
+   "lat": 51.52026,
+   "lng": -0.12289
+  },
+  {
+   "id": "fellows-auctioneers",
+   "name": "Fellows Auctioneers",
+   "cat": "rare",
+   "sub": "Jewellery & watch auctions",
+   "town": "Birmingham",
+   "address": "19 Augusta Street, Birmingham B18 6JA",
+   "phone": "0121 212 2131",
+   "url": "https://www.fellows.co.uk",
+   "note": "Jewellery and watch auctioneers in Birmingham.",
+   "lat": 52.48808,
+   "lng": -1.91051
+  },
+  {
+   "id": "hamilton-inches",
+   "name": "Hamilton & Inches",
+   "cat": "rare",
+   "sub": "Jeweller & silversmith",
+   "town": "Edinburgh",
+   "address": "87 George Street, Edinburgh EH2 3EY",
+   "phone": "",
+   "url": "https://www.hamiltonandinches.com",
+   "note": "Royal warrant jewellers and silversmiths since 1866.",
+   "lat": 55.95291,
+   "lng": -3.20194
+  },
+  {
+   "id": "boodles",
+   "name": "Boodles",
+   "cat": "rare",
+   "sub": "Jeweller",
+   "town": "Liverpool",
+   "address": "Boodles House, Lord Street, Liverpool L2 9SQ",
+   "phone": "",
+   "url": "https://www.boodles.com",
+   "note": "Family jewellers founded in Liverpool in 1798.",
+   "lat": 53.40548,
+   "lng": -2.98845
+  },
+  {
+   "id": "berry-s-jewellers",
+   "name": "Berry's Jewellers",
+   "cat": "rare",
+   "sub": "Jeweller",
+   "town": "Leeds",
+   "address": "56 Albion Street, Leeds LS1 6AD",
+   "phone": "",
+   "url": "https://www.berrysjewellers.co.uk",
+   "note": "Family jewellers in Yorkshire.",
+   "lat": 53.79844,
+   "lng": -1.54493
+  },
+  {
+   "id": "pragnell",
+   "name": "Pragnell",
+   "cat": "rare",
+   "sub": "Jeweller",
+   "town": "Stratford-upon-Avon",
+   "address": "5–7 Wood Street, Stratford-upon-Avon CV37 6JA",
+   "phone": "",
+   "url": "https://www.pragnell.co.uk",
+   "note": "Independent family jewellers since 1850.",
+   "lat": 52.19263,
+   "lng": -1.70726
+  },
+  {
+   "id": "ogden-of-harrogate",
+   "name": "Ogden of Harrogate",
+   "cat": "rare",
+   "sub": "Jeweller",
+   "town": "Harrogate",
+   "address": "38 James Street, Harrogate HG1 1RQ",
+   "phone": "",
+   "url": "https://www.ogdenharrogate.co.uk",
+   "note": "Family jewellers in Harrogate since 1893.",
+   "lat": 53.99254,
+   "lng": -1.54038
+  },
+  {
+   "id": "hancocks",
+   "name": "Hancocks",
+   "cat": "rare",
+   "sub": "Antique jewellery",
+   "town": "London",
+   "address": "62 St James's Street, London SW1A 1LY",
+   "phone": "020 7493 8904",
+   "url": "https://www.hancocks-london.com",
+   "note": "Antique and period jewellery dealers since 1849.",
+   "lat": 51.50639,
+   "lng": -0.13948
+  },
+  {
+   "id": "charles-frodsham-co",
+   "name": "Charles Frodsham & Co",
+   "cat": "rare",
+   "sub": "Clocks & watches",
+   "town": "London",
+   "address": "32 Bury Street, London SW1Y 6AU",
+   "phone": "020 7839 1234",
+   "url": "https://www.frodsham.com",
+   "note": "Royal warrant chronometer, watch and clock makers since 1834.",
+   "lat": 51.50655,
+   "lng": -0.13843
+  },
+  {
+   "id": "hexagon-classics",
+   "name": "Hexagon Classics",
+   "cat": "rare",
+   "sub": "Classic cars",
+   "town": "London",
+   "address": "82–92 Great North Road, London N2 0NL",
+   "phone": "020 8348 5151",
+   "url": "https://www.hexagonclassics.com",
+   "note": "Classic car specialists since 1963.",
+   "lat": 51.58484,
+   "lng": -0.16174
+  },
+  {
+   "id": "h-h-classics",
+   "name": "H&H Classics",
+   "cat": "rare",
+   "sub": "Classic car auctions",
+   "town": "Sandbach",
+   "address": "Cockayne House, Love Lane, Betchton, Sandbach CW11 2TS",
+   "phone": "01925 210035",
+   "url": "https://www.handh.co.uk",
+   "note": "Classic car auctioneers.",
+   "lat": 53.12879,
+   "lng": -2.31201
+  },
+  {
+   "id": "historics-auctioneers",
+   "name": "Historics Auctioneers",
+   "cat": "rare",
+   "sub": "Classic car auctions",
+   "town": "Weybridge",
+   "address": "Mercedes-Benz World, Brooklands, Weybridge KT13 0SL (sale venue)",
+   "phone": "",
+   "url": "https://www.historics.co.uk",
+   "note": "Classic car auctions, held at Mercedes-Benz World, Brooklands.",
+   "lat": 51.35311,
+   "lng": -0.47068
+  },
+  {
+   "id": "fiskens",
+   "name": "Fiskens",
+   "cat": "rare",
+   "sub": "Classic cars",
+   "town": "London",
+   "address": "14 Queens Gate Place Mews, London SW7 5BQ",
+   "phone": "020 7584 3503",
+   "url": "https://www.fiskens.com",
+   "note": "Historic racing and classic car dealers.",
+   "lat": 51.49606,
+   "lng": -0.18053
+  },
+  {
+   "id": "duncan-hamilton-rofgo",
+   "name": "Duncan Hamilton ROFGO",
+   "cat": "rare",
+   "sub": "Classic cars",
+   "town": "Micheldever",
+   "address": "ROFGO Park, Micheldever SO21 3DN",
+   "phone": "01256 765000",
+   "url": "https://www.dhrofgo.com",
+   "note": "The world's oldest historic and competition car dealer, est. 1948.",
+   "lat": 51.15014,
+   "lng": -1.25004
+  },
+  {
+   "id": "iconic-auctioneers",
+   "name": "Iconic Auctioneers",
+   "cat": "rare",
+   "sub": "Classic car auctions",
+   "town": "Ashorne",
+   "address": "The Forge, Harwoods House, Banbury Road, Ashorne CV35 0AA",
+   "phone": "",
+   "url": "https://www.iconicauctioneers.com",
+   "note": "Classic car and motorcycle auctions (sales at the NEC and Silverstone).",
+   "lat": 52.21649,
+   "lng": -1.50541
+  },
+  {
+   "id": "berry-bros-rudd",
+   "name": "Berry Bros. & Rudd",
+   "cat": "rare",
+   "sub": "Fine wine & spirits",
+   "town": "London",
+   "address": "3 St James's Street, London SW1A 1EG",
+   "phone": "",
+   "url": "https://www.bbr.com",
+   "note": "Britain's oldest wine merchant, since 1698.",
+   "lat": 51.50555,
+   "lng": -0.13803
+  },
+  {
+   "id": "justerini-brooks",
+   "name": "Justerini & Brooks",
+   "cat": "rare",
+   "sub": "Fine wine & spirits",
+   "town": "London",
+   "address": "16 Great Marlborough Street, London W1F 7HS",
+   "phone": "020 7484 6430",
+   "url": "https://www.justerinis.com",
+   "note": "Wine merchant since 1749.",
+   "lat": 51.51465,
+   "lng": -0.13915
+  },
+  {
+   "id": "cadenhead-s-whisky-shop",
+   "name": "Cadenhead's Whisky Shop",
+   "cat": "rare",
+   "sub": "Whisky",
+   "town": "Edinburgh",
+   "address": "172 Canongate, Edinburgh EH8 8DF",
+   "phone": "0131 556 5864",
+   "url": "https://www.cadenhead.scot",
+   "note": "Scotland's oldest independent bottler, since 1842.",
+   "lat": 55.95115,
+   "lng": -3.18026
+  },
+  {
+   "id": "royal-mile-whiskies",
+   "name": "Royal Mile Whiskies",
+   "cat": "rare",
+   "sub": "Whisky",
+   "town": "Edinburgh",
+   "address": "379 High Street, Edinburgh EH1 1PW",
+   "phone": "",
+   "url": "https://www.royalmilewhiskies.com",
+   "note": "Specialist whisky shop on the Royal Mile.",
+   "lat": 55.94986,
+   "lng": -3.19158
+  },
+  {
+   "id": "gordon-macphail",
+   "name": "Gordon & MacPhail",
+   "cat": "rare",
+   "sub": "Whisky",
+   "town": "Elgin",
+   "address": "George House, Boroughbriggs Road, Elgin IV30 1JY",
+   "phone": "01343 545111",
+   "url": "https://www.gordonandmacphail.com",
+   "note": "Family whisky merchants since 1895.",
+   "lat": 57.64722,
+   "lng": -3.32145
+  },
+  {
+   "id": "whisky-auctioneer",
+   "name": "Whisky Auctioneer",
+   "cat": "rare",
+   "sub": "Whisky auctions",
+   "town": "Perth",
+   "address": "Perth West Building, Ruthvenfield Grove, Inveralmond Industrial Estate, Perth PH1 3FN",
+   "phone": "",
+   "url": "https://www.whiskyauctioneer.com",
+   "note": "Online whisky auction house based in Perth.",
+   "lat": 56.41556,
+   "lng": -3.47589
+  },
+  {
+   "id": "tanners-wines",
+   "name": "Tanners Wines",
+   "cat": "rare",
+   "sub": "Fine wine",
+   "town": "Shrewsbury",
+   "address": "26 Wyle Cop, Shrewsbury SY1 1XD",
+   "phone": "01743 234459",
+   "url": "https://www.tanners-wines.co.uk",
+   "note": "Family wine merchant since 1842.",
+   "lat": 52.70631,
+   "lng": -2.75003
+  },
+  {
+   "id": "lay-wheeler",
+   "name": "Lay & Wheeler",
+   "cat": "rare",
+   "sub": "Fine wine",
+   "town": "Ipswich",
+   "address": "Unit 6 Blackacre Road, Great Blakenham, Ipswich IP6 0FL",
+   "phone": "",
+   "url": "https://www.laywheeler.com",
+   "note": "Fine wine merchant since 1854.",
+   "lat": 52.10364,
+   "lng": 1.08997
+  },
+  {
+   "id": "nickolls-perks",
+   "name": "Nickolls & Perks",
+   "cat": "rare",
+   "sub": "Fine wine",
+   "town": "Stourbridge",
+   "address": "37 Lower High Street, Stourbridge DY8 1TA",
+   "phone": "01384 394518",
+   "url": "https://www.nickollsandperks.co.uk",
+   "note": "Wine merchant since 1797.",
+   "lat": 52.45827,
+   "lng": -2.14775
+  },
+  {
+   "id": "hedonism-wines",
+   "name": "Hedonism Wines",
+   "cat": "rare",
+   "sub": "Fine wine",
+   "town": "London",
+   "address": "Davies Street, Mayfair, London W1K 3DJ",
+   "phone": "",
+   "url": "https://www.hedonism.co.uk",
+   "note": "Fine wine and spirits shop in Mayfair.",
+   "lat": 51.51087,
+   "lng": -0.14716
+  },
+  {
+   "id": "corney-barrow",
+   "name": "Corney & Barrow",
+   "cat": "rare",
+   "sub": "Fine wine",
+   "town": "London",
+   "address": "1 Thomas More Street, London E1W 1YZ",
+   "phone": "020 7265 2430",
+   "url": "https://www.corneyandbarrow.com",
+   "note": "Wine merchant since 1780.",
+   "lat": 51.5082,
+   "lng": -0.06871
+  },
+  {
+   "id": "the-scottish-gallery",
+   "name": "The Scottish Gallery",
+   "cat": "rare",
+   "sub": "Art gallery",
+   "town": "Edinburgh",
+   "address": "16 Dundas Street, Edinburgh EH3 6HZ",
+   "phone": "0131 558 1200",
+   "url": "https://www.scottish-gallery.co.uk",
+   "note": "Edinburgh art gallery since 1842.",
+   "lat": 55.95649,
+   "lng": -3.19926
+  },
+  {
+   "id": "the-fine-art-society",
+   "name": "The Fine Art Society",
+   "cat": "rare",
+   "sub": "Art gallery",
+   "town": "Edinburgh",
+   "address": "6 Dundas Street, Edinburgh EH3 6HZ",
+   "phone": "0131 557 4050",
+   "url": "https://www.thefineartsociety.com",
+   "note": "Edinburgh art gallery on Dundas Street, with private sales and collection advice.",
+   "lat": 55.95649,
+   "lng": -3.19926
+  },
+  {
+   "id": "messums-wiltshire",
+   "name": "Messums Wiltshire",
+   "cat": "rare",
+   "sub": "Art gallery",
+   "town": "Tisbury",
+   "address": "Place Farm, Court Street, Tisbury SP3 6LW",
+   "phone": "",
+   "url": "https://www.messums.com",
+   "note": "Art gallery in a medieval tithe barn.",
+   "lat": 51.06759,
+   "lng": -2.07059
+  },
+  {
+   "id": "lemon-street-gallery",
+   "name": "Lemon Street Gallery",
+   "cat": "rare",
+   "sub": "Art gallery",
+   "town": "Truro",
+   "address": "13 Lemon Street, Truro TR1 2LS",
+   "phone": "01872 275757",
+   "url": "https://www.lemonstreetgallery.co.uk",
+   "note": "Contemporary art gallery in Truro.",
+   "lat": 50.26187,
+   "lng": -5.0516
+  },
+  {
+   "id": "swan-at-tetsworth",
+   "name": "Swan at Tetsworth",
+   "cat": "rare",
+   "sub": "Antiques centre",
+   "town": "Tetsworth",
+   "address": "High Street, Tetsworth OX9 7AB",
+   "phone": "01844 281777",
+   "url": "https://www.theswan.co.uk",
+   "note": "Antiques centre in a 15th-century coaching inn.",
+   "lat": 51.71029,
+   "lng": -1.00676
+  },
+  {
+   "id": "peter-harrington",
+   "name": "Peter Harrington",
+   "cat": "rare",
+   "sub": "Rare books",
+   "town": "London",
+   "address": "1–3 Regal Place, London SW6 2HD (office)",
+   "phone": "",
+   "url": "https://www.peterharrington.co.uk",
+   "note": "Rare book dealers.",
+   "lat": 51.4783,
+   "lng": -0.18994
+  },
+  {
+   "id": "barter-books",
+   "name": "Barter Books",
+   "cat": "rare",
+   "sub": "Rare & second-hand books",
+   "town": "Alnwick",
+   "address": "Alnwick Station, Alnwick NE66 2NP",
+   "phone": "01665 604888",
+   "url": "https://www.barterbooks.co.uk",
+   "note": "Huge second-hand bookshop in a Victorian railway station.",
+   "lat": 55.4098,
+   "lng": -1.69923
+  },
+  {
+   "id": "richard-booth-s-bookshop",
+   "name": "Richard Booth's Bookshop",
+   "cat": "rare",
+   "sub": "Rare & second-hand books",
+   "town": "Hay-on-Wye",
+   "address": "44 Lion Street, Hay-on-Wye HR3 5AA",
+   "phone": "01497 820322",
+   "url": "https://www.boothbooks.co.uk",
+   "note": "Bookshop in the town of books.",
+   "lat": 52.07465,
+   "lng": -3.12519
+  },
+  {
+   "id": "henry-poole-co",
+   "name": "Henry Poole & Co",
+   "cat": "bespoke",
+   "sub": "Tailoring",
+   "town": "London",
+   "address": "15 Savile Row, London W1S 3PJ",
+   "phone": "",
+   "url": "https://www.henrypoole.com",
+   "note": "Savile Row's founding tailor, since 1806.",
+   "lat": 51.51123,
+   "lng": -0.14025
+  },
+  {
+   "id": "huntsman",
+   "name": "Huntsman",
+   "cat": "bespoke",
+   "sub": "Tailoring",
+   "town": "London",
+   "address": "11 Savile Row, London W1S 3PS",
+   "phone": "020 7734 7441",
+   "url": "https://www.huntsmansavilerow.com",
+   "note": "Savile Row tailor since 1849.",
+   "lat": 51.51097,
+   "lng": -0.13999
+  },
+  {
+   "id": "campbell-s-of-beauly",
+   "name": "Campbell's of Beauly",
+   "cat": "bespoke",
+   "sub": "Tailoring & tweed",
+   "town": "Beauly",
+   "address": "Highland Tweed House, High Street, Beauly IV4 7BU",
+   "phone": "",
+   "url": "https://www.campbellsofbeauly.com",
+   "note": "Highland tweed tailors since 1858.",
+   "lat": 57.48289,
+   "lng": -4.46032
+  },
+  {
+   "id": "walker-slater",
+   "name": "Walker Slater",
+   "cat": "bespoke",
+   "sub": "Tailoring & tweed",
+   "town": "Edinburgh",
+   "address": "16–20 Victoria Street, Edinburgh EH1 2HG",
+   "phone": "",
+   "url": "https://www.walkerslater.com",
+   "note": "Edinburgh tweed tailors.",
+   "lat": 55.94882,
+   "lng": -3.19331
+  },
+  {
+   "id": "john-lobb",
+   "name": "John Lobb",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "London",
+   "address": "9 St James's Street, London SW1A 1EF",
+   "phone": "020 7930 3664",
+   "url": "https://www.johnlobb1849.com",
+   "note": "Bespoke bootmaker on St James's Street since 1849.",
+   "lat": 51.50545,
+   "lng": -0.138
+  },
+  {
+   "id": "crockett-jones",
+   "name": "Crockett & Jones",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "Northampton",
+   "address": "27 Perry Street, Northampton NN1 4HN (factory shop)",
+   "phone": "",
+   "url": "https://www.crockettandjones.com",
+   "note": "Northampton shoemakers since 1879.",
+   "lat": 52.24558,
+   "lng": -0.87984
+  },
+  {
+   "id": "tricker-s",
+   "name": "Tricker's",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "Northampton",
+   "address": "56–60 St Michael's Road, Northampton NN1 3JX",
+   "phone": "",
+   "url": "https://www.trickers.com",
+   "note": "England's oldest shoemaker, since 1829.",
+   "lat": 52.24104,
+   "lng": -0.88886
+  },
+  {
+   "id": "edward-green",
+   "name": "Edward Green",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "Northampton",
+   "address": "Cliftonville Road, Northampton NN1 5BU",
+   "phone": "",
+   "url": "https://www.edwardgreen.com",
+   "note": "Northampton shoemakers since 1890.",
+   "lat": 52.2349,
+   "lng": -0.87951
+  },
+  {
+   "id": "joseph-cheaney-sons",
+   "name": "Joseph Cheaney & Sons",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "Desborough",
+   "address": "69 Rushton Road, Desborough NN14 2RR",
+   "phone": "",
+   "url": "https://www.cheaney.co.uk",
+   "note": "Shoemakers since 1886.",
+   "lat": 52.44353,
+   "lng": -0.8128
+  },
+  {
+   "id": "gaziano-girling",
+   "name": "Gaziano & Girling",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "London",
+   "address": "39 Savile Row, London W1S 3QF",
+   "phone": "",
+   "url": "https://www.gazianogirling.com",
+   "note": "Bespoke and benchmade shoemakers, workshop in Kettering.",
+   "lat": 51.51063,
+   "lng": -0.14049
+  },
+  {
+   "id": "grenson",
+   "name": "Grenson",
+   "cat": "bespoke",
+   "sub": "Shoemaker",
+   "town": "Rushden",
+   "address": "Grenson House, Unit C2, Crown Way, Rushden NN10 6BS",
+   "phone": "",
+   "url": "https://www.grenson.com",
+   "note": "Shoemakers since 1866.",
+   "lat": 52.29695,
+   "lng": -0.61477
+  },
+  {
+   "id": "lock-co-hatters",
+   "name": "Lock & Co. Hatters",
+   "cat": "bespoke",
+   "sub": "Hatter",
+   "town": "London",
+   "address": "6 St James's Street, London SW1A 1EF",
+   "phone": "",
+   "url": "https://www.lockhatters.co.uk",
+   "note": "The world's oldest hat shop, since 1676.",
+   "lat": 51.50545,
+   "lng": -0.138
+  },
+  {
+   "id": "james-smith-sons",
+   "name": "James Smith & Sons",
+   "cat": "bespoke",
+   "sub": "Umbrellas",
+   "town": "London",
+   "address": "Hazelwood House, 53 New Oxford Street, London WC1A 1BL",
+   "phone": "",
+   "url": "https://www.james-smith.co.uk",
+   "note": "Umbrella makers since 1830.",
+   "lat": 51.51686,
+   "lng": -0.1264
+  },
+  {
+   "id": "holland-holland",
+   "name": "Holland & Holland",
+   "cat": "bespoke",
+   "sub": "Gunmaker",
+   "town": "London",
+   "address": "36 St James's Street, London SW1A 1JD",
+   "phone": "",
+   "url": "https://www.hollandandholland.com",
+   "note": "Gunmakers since 1835.",
+   "lat": 51.5077,
+   "lng": -0.14011
+  },
+  {
+   "id": "james-purdey-sons",
+   "name": "James Purdey & Sons",
+   "cat": "bespoke",
+   "sub": "Gunmaker",
+   "town": "London",
+   "address": "Audley House, 57–58 South Audley Street, London W1K 2ED",
+   "phone": "",
+   "url": "https://www.purdey.com",
+   "note": "Gunmakers since 1814.",
+   "lat": 51.50936,
+   "lng": -0.15193
+  },
+  {
+   "id": "william-evans",
+   "name": "William Evans",
+   "cat": "bespoke",
+   "sub": "Gunmaker",
+   "town": "Woking",
+   "address": "The Old Armoury, Brookwood, Woking GU24 0NY",
+   "phone": "01483 486500",
+   "url": "https://www.williamevans.com",
+   "note": "Gunmakers on St James's since 1883.",
+   "lat": 51.31081,
+   "lng": -0.65681
+  },
+  {
+   "id": "westley-richards",
+   "name": "Westley Richards",
+   "cat": "bespoke",
+   "sub": "Gunmaker",
+   "town": "Birmingham",
+   "address": "130 Pritchett Street, Birmingham B6 4EH",
+   "phone": "0121 333 1900",
+   "url": "https://www.westleyrichards.com",
+   "note": "Birmingham gunmakers since 1812.",
+   "lat": 52.49153,
+   "lng": -1.89463
+  },
+  {
+   "id": "john-dickson-son",
+   "name": "John Dickson & Son",
+   "cat": "bespoke",
+   "sub": "Gunmaker",
+   "town": "Dunkeld",
+   "address": "The Steading, Dunkeld House Farm, Dunkeld PH8 0HX",
+   "phone": "01350 728763",
+   "url": "https://www.john-dickson.com",
+   "note": "Scotland's oldest gunmaker, founded in Edinburgh in 1820.",
+   "lat": 56.56478,
+   "lng": -3.6113
+  },
+  {
+   "id": "e-j-churchill",
+   "name": "E.J. Churchill",
+   "cat": "bespoke",
+   "sub": "Gunmaker & shooting ground",
+   "town": "High Wycombe",
+   "address": "Park Lane, Lane End, High Wycombe HP14 3NS",
+   "phone": "01494 883227",
+   "url": "https://www.ejchurchill.com",
+   "note": "Gunmaker and shooting ground at West Wycombe.",
+   "lat": 51.6177,
+   "lng": -0.81642
+  },
+  {
+   "id": "ettinger",
+   "name": "Ettinger",
+   "cat": "bespoke",
+   "sub": "Leather goods",
+   "town": "London",
+   "address": "215 Putney Bridge Road, London SW15 2NY",
+   "phone": "",
+   "url": "https://ettingerlondon.com",
+   "note": "Family leather goods makers since 1934.",
+   "lat": 51.4621,
+   "lng": -0.2076
+  },
+  {
+   "id": "whitehouse-cox",
+   "name": "Whitehouse Cox",
+   "cat": "bespoke",
+   "sub": "Leather goods",
+   "town": "Walsall",
+   "address": "Unit F1, Fellows Court, Anchor Brook Industrial Park, Aldridge, Walsall WS9 8BZ",
+   "phone": "",
+   "url": "https://www.whitehousecox.co.uk",
+   "note": "Walsall leather makers since 1875.",
+   "lat": 52.60692,
+   "lng": -1.92833
+  },
+  {
+   "id": "billingham",
+   "name": "Billingham",
+   "cat": "bespoke",
+   "sub": "Leather & canvas bags",
+   "town": "Cradley Heath",
+   "address": "Unit 4, City Estate, Corngreaves Road, Cradley Heath B64 7EP",
+   "phone": "",
+   "url": "https://www.billingham.co.uk",
+   "note": "Handmade bags in the West Midlands.",
+   "lat": 52.46865,
+   "lng": -2.07669
+  },
+  {
+   "id": "ercol",
+   "name": "Ercol",
+   "cat": "bespoke",
+   "sub": "Furniture maker",
+   "town": "Princes Risborough",
+   "address": "Summerleys Road, Princes Risborough HP27 9PX",
+   "phone": "",
+   "url": "https://www.ercol.com",
+   "note": "Family furniture makers since 1920.",
+   "lat": 51.72088,
+   "lng": -0.84572
+  },
+  {
+   "id": "robert-thompson-s-craftsmen",
+   "name": "Robert Thompson's Craftsmen",
+   "cat": "bespoke",
+   "sub": "Furniture maker",
+   "town": "Kilburn",
+   "address": "Kilburn, York YO61 4AH",
+   "phone": "01347 869100",
+   "url": "https://www.robertthompsons.co.uk",
+   "note": "The 'Mouseman' oak furniture makers.",
+   "lat": 54.20942,
+   "lng": -1.21367
+  },
+  {
+   "id": "treske",
+   "name": "Treske",
+   "cat": "bespoke",
+   "sub": "Furniture maker",
+   "town": "Thirsk",
+   "address": "Station Works, Thirsk YO7 4LX",
+   "phone": "01845 522770",
+   "url": "https://www.treske.co.uk",
+   "note": "Solid wood furniture makers in North Yorkshire.",
+   "lat": 54.22795,
+   "lng": -1.37688
+  },
+  {
+   "id": "titchmarsh-goodwin",
+   "name": "Titchmarsh & Goodwin",
+   "cat": "bespoke",
+   "sub": "Furniture maker",
+   "town": "Ipswich",
+   "address": "Trinity Works, Back Hamlet, Ipswich IP3 8AL",
+   "phone": "01473 252158",
+   "url": "https://www.titchmarsh-goodwin.co.uk",
+   "note": "Hand-made English furniture makers in Ipswich.",
+   "lat": 52.05249,
+   "lng": 1.16783
+  },
+  {
+   "id": "smith-of-derby",
+   "name": "Smith of Derby",
+   "cat": "bespoke",
+   "sub": "Clockmaker",
+   "town": "Derby",
+   "address": "112 Alfreton Road, Derby DE21 4AU",
+   "phone": "",
+   "url": "https://www.smithofderby.com",
+   "note": "Tower clock makers since 1856.",
+   "lat": 52.9379,
+   "lng": -1.46841
+  },
+  {
+   "id": "john-taylor-co",
+   "name": "John Taylor & Co",
+   "cat": "bespoke",
+   "sub": "Bell foundry",
+   "town": "Loughborough",
+   "address": "The Bellfoundry, Freehold Street, Loughborough LE11 1AR",
+   "phone": "01509 212241",
+   "url": "https://www.taylorbells.co.uk",
+   "note": "Bell founders.",
+   "lat": 52.77353,
+   "lng": -1.19925
+  },
+  {
+   "id": "johnstons-of-elgin",
+   "name": "Johnstons of Elgin",
+   "cat": "bespoke",
+   "sub": "Cashmere & tweed mill",
+   "town": "Elgin",
+   "address": "Newmill, Elgin IV30 4AF",
+   "phone": "",
+   "url": "https://www.johnstonsofelgin.com",
+   "note": "Mill weaving cashmere since 1797.",
+   "lat": 57.65118,
+   "lng": -3.29882
+  },
+  {
+   "id": "fox-brothers",
+   "name": "Fox Brothers",
+   "cat": "bespoke",
+   "sub": "Cloth mill",
+   "town": "Wellington",
+   "address": "Tonedale Mill, Wellington TA21 0AW",
+   "phone": "",
+   "url": "https://www.foxflannel.com",
+   "note": "Woollen mill since 1772.",
+   "lat": 50.98539,
+   "lng": -3.24214
+  },
+  {
+   "id": "harris-tweed-hebrides",
+   "name": "Harris Tweed Hebrides",
+   "cat": "bespoke",
+   "sub": "Tweed mill",
+   "town": "Shawbost",
+   "address": "Shawbost Mill, North Shawbost, Isle of Lewis HS2 9BD",
+   "phone": "",
+   "url": "https://www.harristweedhebrides.com",
+   "note": "Harris Tweed mill on the Isle of Lewis.",
+   "lat": 58.3309,
+   "lng": -6.66833
+  },
+  {
+   "id": "melin-tregwynt",
+   "name": "Melin Tregwynt",
+   "cat": "bespoke",
+   "sub": "Woollen mill",
+   "town": "Castlemorris",
+   "address": "Castlemorris, Haverfordwest SA62 5UX",
+   "phone": "",
+   "url": "https://www.melintregwynt.co.uk",
+   "note": "Family woollen mill in Pembrokeshire.",
+   "lat": 51.97239,
+   "lng": -5.06926
+  },
+  {
+   "id": "thomas-ferguson-irish-linen",
+   "name": "Thomas Ferguson Irish Linen",
+   "cat": "bespoke",
+   "sub": "Linen weaver",
+   "town": "Banbridge",
+   "address": "54 Scarva Road, Banbridge BT32 3QD",
+   "phone": "028 4062 3491",
+   "url": "https://www.fergusonsirishlinen.com",
+   "note": "Irish linen weavers since 1854.",
+   "lat": 54.35129,
+   "lng": -6.29218
+  },
+  {
+   "id": "morgan-motor-company",
+   "name": "Morgan Motor Company",
+   "cat": "toys",
+   "sub": "Handmade cars",
+   "town": "Malvern",
+   "address": "Pickersleigh Road, Malvern Link WR14 2LL",
+   "phone": "",
+   "url": "https://www.morgan-motor.com",
+   "note": "Hand-built sports cars since 1909.",
+   "lat": 52.12386,
+   "lng": -2.31107
+  },
+  {
+   "id": "jackson-stops",
+   "name": "Jackson-Stops",
+   "cat": "property",
+   "sub": "Country house agents",
+   "town": "London",
+   "address": "66 Grosvenor Street, London W1K 3JL",
+   "phone": "",
+   "url": "https://www.jackson-stops.co.uk",
+   "note": "Country house estate agents since 1910.",
+   "lat": 51.51166,
+   "lng": -0.14642
+  },
+  {
+   "id": "galbraith",
+   "name": "Galbraith",
+   "cat": "property",
+   "sub": "Estates & farms",
+   "town": "Edinburgh",
+   "address": "18 George Street, Edinburgh EH2 2PF",
+   "phone": "",
+   "url": "https://www.galbraithgroup.com",
+   "note": "Scottish property and land agents.",
+   "lat": 55.9535,
+   "lng": -3.19609
+  },
+  {
+   "id": "bidwells",
+   "name": "Bidwells",
+   "cat": "property",
+   "sub": "Estates & farms",
+   "town": "Cambridge",
+   "address": "Bidwell House, Trumpington Road, Cambridge CB2 9LD",
+   "phone": "01223 841841",
+   "url": "https://www.bidwells.co.uk",
+   "note": "Property and land consultants.",
+   "lat": 52.17287,
+   "lng": 0.11222
+  },
+  {
+   "id": "george-f-white",
+   "name": "George F. White",
+   "cat": "property",
+   "sub": "Estates & farms",
+   "town": "Newcastle upon Tyne",
+   "address": "22 Dean Street, Newcastle upon Tyne NE1 1PG",
+   "phone": "",
+   "url": "https://www.georgefwhite.co.uk",
+   "note": "Rural property and land agents.",
+   "lat": 54.97049,
+   "lng": -1.60982
+  },
+  {
+   "id": "lillicrap-chilcott",
+   "name": "Lillicrap Chilcott",
+   "cat": "property",
+   "sub": "Country houses",
+   "town": "Truro",
+   "address": "Landrian House, 59–60 Lemon Street, Truro TR1 2PE",
+   "phone": "01872 273473",
+   "url": "https://www.lillicrapchilcott.com",
+   "note": "Cornwall's prime property agents.",
+   "lat": 50.26069,
+   "lng": -5.05375
+  },
+  {
+   "id": "stags",
+   "name": "Stags",
+   "cat": "property",
+   "sub": "Country houses & farms",
+   "town": "Exeter",
+   "address": "21/22 Southernhay West, Exeter EX1 1PR",
+   "phone": "",
+   "url": "https://www.stags.co.uk",
+   "note": "West Country property agents.",
+   "lat": 50.72301,
+   "lng": -3.52714
+  },
+  {
+   "id": "butler-sherborn",
+   "name": "Butler Sherborn",
+   "cat": "property",
+   "sub": "Country houses",
+   "town": "Burford",
+   "address": "Vine House, 2 High Street, Burford OX18 4RR",
+   "phone": "01993 822325",
+   "url": "https://www.butlersherborn.co.uk",
+   "note": "Cotswold country house agents.",
+   "lat": 51.80957,
+   "lng": -1.63641
+  },
+  {
+   "id": "fisher-german",
+   "name": "Fisher German",
+   "cat": "property",
+   "sub": "Estates & farms",
+   "town": "Market Harborough",
+   "address": "Innovation House, Welland Business Park, Valley Way, Market Harborough LE16 7PS",
+   "phone": "01858 410200",
+   "url": "https://www.fishergerman.co.uk",
+   "note": "Rural property and land consultancy.",
+   "lat": 52.48162,
+   "lng": -0.90324
+  },
+  {
+   "id": "brown-co",
+   "name": "Brown & Co",
+   "cat": "property",
+   "sub": "Estates & farms",
+   "town": "Norwich",
+   "address": "The Atrium, St George's Street, Norwich NR3 1AB",
+   "phone": "",
+   "url": "https://www.brown-co.com",
+   "note": "East Anglian property and agricultural agents.",
+   "lat": 52.63273,
+   "lng": 1.29422
+  },
+  {
+   "id": "durrants",
+   "name": "Durrants",
+   "cat": "property",
+   "sub": "Country houses & land",
+   "town": "Diss",
+   "address": "2b Market Hill, Diss IP22 4JZ",
+   "phone": "01379 642233",
+   "url": "https://www.durrants.com",
+   "note": "Norfolk and Suffolk agents.",
+   "lat": 52.37707,
+   "lng": 1.10798
+  },
+  {
+   "id": "goldcrest-land-forestry",
+   "name": "Goldcrest Land & Forestry",
+   "cat": "property",
+   "sub": "Forestry",
+   "town": "Edinburgh",
+   "address": "18 Great Stuart Street, Edinburgh EH3 7TN",
+   "phone": "",
+   "url": "https://goldcrestlfg.com",
+   "note": "Forestry and land agents.",
+   "lat": 55.95245,
+   "lng": -3.21075
+  },
+  {
+   "id": "tilhill-forestry",
+   "name": "Tilhill Forestry",
+   "cat": "property",
+   "sub": "Forestry",
+   "town": "Dunfermline",
+   "address": "Halbeath Interchange Business Park, Kingseat Road, Dunfermline KY11 8RY",
+   "phone": "",
+   "url": "https://www.tilhill.com",
+   "note": "Forest management.",
+   "lat": 56.08268,
+   "lng": -3.40154
+  },
+  {
+   "id": "simon-brien-residential",
+   "name": "Simon Brien Residential",
+   "cat": "property",
+   "sub": "Prime homes",
+   "town": "Belfast",
+   "address": "525 Lisburn Road, Belfast BT9 7GQ",
+   "phone": "028 9066 8888",
+   "url": "https://www.simonbrien.com",
+   "note": "Northern Ireland estate agents.",
+   "lat": 54.57574,
+   "lng": -5.95526
+  },
+  {
+   "id": "cooke-arkwright",
+   "name": "Cooke & Arkwright",
+   "cat": "property",
+   "sub": "Chartered surveyors",
+   "town": "Cardiff",
+   "address": "7–8 Windsor Place, Cardiff CF10 3SX",
+   "phone": "",
+   "url": "https://www.coark.com",
+   "note": "Welsh chartered surveyors and property consultants.",
+   "lat": 51.48337,
+   "lng": -3.17334
+  },
+  {
+   "id": "garrington-property-finders",
+   "name": "Garrington Property Finders",
+   "cat": "property",
+   "sub": "Buying agent",
+   "town": "London",
+   "address": "53 Davies Street, London W1K 5JH",
+   "phone": "020 7099 2773",
+   "url": "https://www.garrington.co.uk",
+   "note": "Property buying agents.",
+   "lat": 51.51295,
+   "lng": -0.1487
+  },
+  {
+   "id": "stacks-property-search",
+   "name": "Stacks Property Search",
+   "cat": "property",
+   "sub": "Buying agent",
+   "town": "Blakeney",
+   "address": "Old Severn Bridge House, Purton, Blakeney GL15 4AX",
+   "phone": "",
+   "url": "https://www.stacks.co.uk",
+   "note": "Country property buying agents.",
+   "lat": 51.74676,
+   "lng": -2.47348
+  },
+  {
+   "id": "h-r-owen",
+   "name": "H.R. Owen",
+   "cat": "toys",
+   "sub": "Supercars",
+   "town": "London",
+   "address": "14 Berkeley Square, Mayfair, London W1J 6EG",
+   "phone": "",
+   "url": "https://www.hrowen.co.uk",
+   "note": "Luxury and supercar dealer group in Mayfair.",
+   "lat": 51.50993,
+   "lng": -0.14508
+  },
+  {
+   "id": "joe-macari",
+   "name": "Joe Macari",
+   "cat": "toys",
+   "sub": "Supercars",
+   "town": "London",
+   "address": "249–251 Merton Road, London SW18 5EB",
+   "phone": "020 8870 9007",
+   "url": "https://www.joemacari.com",
+   "note": "Supercar specialist.",
+   "lat": 51.4489,
+   "lng": -0.19925
+  },
+  {
+   "id": "romans-international",
+   "name": "Romans International",
+   "cat": "toys",
+   "sub": "Supercars",
+   "town": "Banstead",
+   "address": "Brighton Road, Banstead SM7 1AT",
+   "phone": "",
+   "url": "https://www.romansinternational.com",
+   "note": "Prestige car dealer.",
+   "lat": 51.31764,
+   "lng": -0.21109
+  },
+  {
+   "id": "tom-hartley-jnr",
+   "name": "Tom Hartley Jnr",
+   "cat": "toys",
+   "sub": "Supercars",
+   "town": "Hook Norton",
+   "address": "Tadmarton Heath Road, Hook Norton OX15 5DD",
+   "phone": "",
+   "url": "https://www.tomhartleyjnr.com",
+   "note": "Supercar and classic dealer.",
+   "lat": 52.00964,
+   "lng": -1.49321
+  },
+  {
+   "id": "aston-martin-works",
+   "name": "Aston Martin Works",
+   "cat": "toys",
+   "sub": "Heritage cars",
+   "town": "Newport Pagnell",
+   "address": "Tickford Street, Newport Pagnell MK16 9AN",
+   "phone": "01908 619603",
+   "url": "https://www.astonmartinworks.com",
+   "note": "Aston Martin's heritage home.",
+   "lat": 52.084,
+   "lng": -0.7163
+  },
+  {
+   "id": "sunseeker",
+   "name": "Sunseeker",
+   "cat": "toys",
+   "sub": "Yachts",
+   "town": "Poole",
+   "address": "Sunseeker House, West Quay Road, Poole BH15 1JD",
+   "phone": "01202 381111",
+   "url": "https://www.sunseeker.com",
+   "note": "Luxury yacht builder.",
+   "lat": 50.71399,
+   "lng": -1.99105
+  },
+  {
+   "id": "princess-yachts",
+   "name": "Princess Yachts",
+   "cat": "toys",
+   "sub": "Yachts",
+   "town": "Plymouth",
+   "address": "Newport Street, Plymouth PL1 3QG",
+   "phone": "01752 203888",
+   "url": "https://www.princessyachts.com",
+   "note": "Luxury yacht builder.",
+   "lat": 50.36906,
+   "lng": -4.16315
+  },
+  {
+   "id": "fairline-yachts",
+   "name": "Fairline Yachts",
+   "cat": "toys",
+   "sub": "Yachts",
+   "town": "Oundle",
+   "address": "Oundle PE8 4HN",
+   "phone": "",
+   "url": "https://www.fairline.com",
+   "note": "Motor yacht builder.",
+   "lat": 52.48148,
+   "lng": -0.46035
+  },
+  {
+   "id": "spirit-yachts",
+   "name": "Spirit Yachts",
+   "cat": "toys",
+   "sub": "Wooden yachts",
+   "town": "Ipswich",
+   "address": "Ipswich Haven Marina, New Cut East, Ipswich IP3 0EA",
+   "phone": "01473 214715",
+   "url": "https://www.spirityachts.com",
+   "note": "Classic wooden yacht builders.",
+   "lat": 52.04997,
+   "lng": 1.16128
+  },
+  {
+   "id": "berthon",
+   "name": "Berthon",
+   "cat": "toys",
+   "sub": "Yacht brokers & boatyard",
+   "town": "Lymington",
+   "address": "The Shipyard, Bath Road, Lymington SO41 3YL",
+   "phone": "",
+   "url": "https://www.berthon.co.uk",
+   "note": "Family boatyard and brokers since 1877.",
+   "lat": 50.75744,
+   "lng": -1.53485
+  },
+  {
+   "id": "cockwells",
+   "name": "Cockwells",
+   "cat": "toys",
+   "sub": "Boatbuilders",
+   "town": "Falmouth",
+   "address": "Mylor Creek Boatyard, Mylor Bridge, Falmouth TR11 5NS",
+   "phone": "",
+   "url": "https://www.cockwells.co.uk",
+   "note": "Bespoke boatbuilders in Cornwall.",
+   "lat": 50.18109,
+   "lng": -5.07369
+  },
+  {
+   "id": "victor",
+   "name": "Victor",
+   "cat": "toys",
+   "sub": "Private jets",
+   "town": "London",
+   "address": "20 Fulham Broadway, London SW6 1AH",
+   "phone": "020 7384 8550",
+   "url": "https://www.flyvictor.com",
+   "note": "Private jet charter.",
+   "lat": 51.48048,
+   "lng": -0.197
+  },
+  {
+   "id": "saxonair",
+   "name": "Saxonair",
+   "cat": "toys",
+   "sub": "Private jets",
+   "town": "Norwich",
+   "address": "Business Aviation Centre, Norwich International Airport, Norwich NR6 6JT",
+   "phone": "01603 518115",
+   "url": "https://www.saxonair.com",
+   "note": "Private aviation in Norwich.",
+   "lat": 52.67117,
+   "lng": 1.27201
+  },
+  {
+   "id": "harrods-aviation",
+   "name": "Harrods Aviation",
+   "cat": "toys",
+   "sub": "Private jets",
+   "town": "Luton",
+   "address": "The Omnia, President Way, London Luton Airport LU2 9NW",
+   "phone": "",
+   "url": "https://www.harrodsaviation.com",
+   "note": "Private jet terminals and charter.",
+   "lat": 51.88344,
+   "lng": -0.3719
+  },
+  {
+   "id": "tattersalls",
+   "name": "Tattersalls",
+   "cat": "toys",
+   "sub": "Bloodstock",
+   "town": "Newmarket",
+   "address": "Terrace House, Newmarket CB8 9BT",
+   "phone": "01638 665931",
+   "url": "https://www.tattersalls.com",
+   "note": "Bloodstock auctioneers since 1766.",
+   "lat": 52.24189,
+   "lng": 0.40122
+  },
+  {
+   "id": "the-national-stud",
+   "name": "The National Stud",
+   "cat": "toys",
+   "sub": "Stud farm",
+   "town": "Newmarket",
+   "address": "The National Stud, Newmarket CB8 0XE",
+   "phone": "",
+   "url": "https://www.nationalstud.co.uk",
+   "note": "Working thoroughbred stud.",
+   "lat": 52.23095,
+   "lng": 0.34083
+  },
+  {
+   "id": "weatherbys",
+   "name": "Weatherbys",
+   "cat": "wealth",
+   "sub": "Private bank & bloodstock",
+   "town": "Wellingborough",
+   "address": "52–60 Sanders Road, Wellingborough NN8 4BX",
+   "phone": "",
+   "url": "https://www.weatherbys.co.uk",
+   "note": "Family business since 1770: private banking and the racing world's bloodstock records.",
+   "lat": 52.32346,
+   "lng": -0.68396
+  },
+  {
+   "id": "guards-polo-club",
+   "name": "Guards Polo Club",
+   "cat": "access",
+   "sub": "Polo club",
+   "town": "Egham",
+   "address": "Smith's Lawn, Windsor Great Park (sat nav SL5 7SA)",
+   "phone": "",
+   "url": "https://www.guardspoloclub.com",
+   "note": "Polo club in Windsor Great Park.",
+   "lat": 51.41021,
+   "lng": -0.62389
+  },
+  {
+   "id": "quintessentially",
+   "name": "Quintessentially",
+   "cat": "time",
+   "sub": "Concierge",
+   "town": "London",
+   "address": "29 Portland Place, London W1B 1QB",
+   "phone": "",
+   "url": "https://www.quintessentially.com",
+   "note": "Luxury lifestyle concierge.",
+   "lat": 51.51983,
+   "lng": -0.14564
+  },
+  {
+   "id": "polo-tweed",
+   "name": "Polo & Tweed",
+   "cat": "time",
+   "sub": "Household staff agency",
+   "town": "London",
+   "address": "Green Park House, 15 Stratton Street, London W1J 8LQ",
+   "phone": "020 3858 0233",
+   "url": "https://www.poloandtweed.com",
+   "note": "Private household staff agency.",
+   "lat": 51.50768,
+   "lng": -0.1445
+  },
+  {
+   "id": "bespoke-bureau",
+   "name": "Bespoke Bureau",
+   "cat": "time",
+   "sub": "Household staff agency",
+   "town": "London",
+   "address": "167–169 Great Portland Street, London W1W 5PF",
+   "phone": "020 3290 0142",
+   "url": "https://www.bespokebureau.com",
+   "note": "Private household staffing.",
+   "lat": 51.52167,
+   "lng": -0.1437
+  },
+  {
+   "id": "little-s-chauffeur-drive",
+   "name": "Little's Chauffeur Drive",
+   "cat": "time",
+   "sub": "Chauffeurs",
+   "town": "Glasgow",
+   "address": "1282 Paisley Road West, Glasgow G52 1DB",
+   "phone": "0141 883 2111",
+   "url": "https://www.littles.co.uk",
+   "note": "Family chauffeur firm, 60 years across Scotland.",
+   "lat": 55.84772,
+   "lng": -4.32439
+  },
+  {
+   "id": "leiths-school-of-food-and-wine",
+   "name": "Leiths School of Food and Wine",
+   "cat": "time",
+   "sub": "Private chefs",
+   "town": "London",
+   "address": "16–20 Wendell Road, London W12 9RT",
+   "phone": "020 8749 6400",
+   "url": "https://www.leiths.com",
+   "note": "Cookery school with an agency for chefs.",
+   "lat": 51.50237,
+   "lng": -0.24431
+  },
+  {
+   "id": "royal-automobile-club",
+   "name": "Royal Automobile Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "London",
+   "address": "89 Pall Mall, London SW1Y 5HS",
+   "phone": "020 7930 2345",
+   "url": "https://www.royalautomobileclub.co.uk",
+   "note": "Pall Mall club, founded 1897.",
+   "lat": 51.5061,
+   "lng": -0.13496
+  },
+  {
+   "id": "the-new-club",
+   "name": "The New Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Edinburgh",
+   "address": "86 Princes Street, Edinburgh EH2 2BB",
+   "phone": "0131 226 4881",
+   "url": "https://www.newclub.co.uk",
+   "note": "Edinburgh club founded 1787.",
+   "lat": 55.95202,
+   "lng": -3.19805
+  },
+  {
+   "id": "the-western-club",
+   "name": "The Western Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Glasgow",
+   "address": "32 Royal Exchange Square, Glasgow G1 3AB",
+   "phone": "0141 221 2016",
+   "url": "https://www.westernclub.co.uk",
+   "note": "Glasgow club founded 1825.",
+   "lat": 55.8605,
+   "lng": -4.25251
+  },
+  {
+   "id": "the-athenaeum-liverpool",
+   "name": "The Athenaeum Liverpool",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Liverpool",
+   "address": "Church Alley, Liverpool L1 3DD",
+   "phone": "0151 709 7770",
+   "url": "https://www.theathenaeum.org.uk",
+   "note": "Liverpool club and library founded 1797.",
+   "lat": 53.4046,
+   "lng": -2.98397
+  },
+  {
+   "id": "the-st-james-s-club",
+   "name": "The St James's Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Manchester",
+   "address": "45 Spring Gardens, King Street, Manchester M2 2BG",
+   "phone": "0161 829 3000",
+   "url": "https://www.stjc.org.uk",
+   "note": "Manchester club founded 1825.",
+   "lat": 53.48077,
+   "lng": -2.24179
+  },
+  {
+   "id": "leander-club",
+   "name": "Leander Club",
+   "cat": "access",
+   "sub": "Rowing club",
+   "town": "Henley-on-Thames",
+   "address": "Henley-on-Thames RG9 2LP",
+   "phone": "",
+   "url": "https://www.leander.co.uk",
+   "note": "Rowing club and hotel.",
+   "lat": 51.53791,
+   "lng": -0.89924
+  },
+  {
+   "id": "the-clifton-club",
+   "name": "The Clifton Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Bristol",
+   "address": "22 The Mall, Clifton, Bristol BS8 4DS",
+   "phone": "0117 974 5039",
+   "url": "https://www.thecliftonclub.co.uk",
+   "note": "Bristol club founded 1818.",
+   "lat": 51.45545,
+   "lng": -2.62093
+  },
+  {
+   "id": "the-leeds-club",
+   "name": "The Leeds Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Leeds",
+   "address": "3 Albion Place, Leeds LS1 6JL",
+   "phone": "",
+   "url": "https://www.theleedsclub.co.uk",
+   "note": "Historic private members' club in central Leeds.",
+   "lat": 53.79799,
+   "lng": -1.54456
+  },
+  {
+   "id": "the-norfolk-club",
+   "name": "The Norfolk Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Norwich",
+   "address": "17 Upper King Street, Norwich NR3 1RB",
+   "phone": "01603 626767",
+   "url": "https://thenorfolkclub.co.uk",
+   "note": "Founded 1770, one of the oldest clubs of its kind in the UK.",
+   "lat": 52.62996,
+   "lng": 1.299
+  },
+  {
+   "id": "the-harrogate-club",
+   "name": "The Harrogate Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Harrogate",
+   "address": "36 Victoria Avenue, Harrogate HG1 5PR",
+   "phone": "01423 540258",
+   "url": "https://www.harrogateclub.co.uk",
+   "note": "Harrogate club founded 1857.",
+   "lat": 53.99111,
+   "lng": -1.53352
+  },
+  {
+   "id": "ulster-reform-club",
+   "name": "Ulster Reform Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Belfast",
+   "address": "4 Royal Avenue, Belfast BT1 1DA",
+   "phone": "028 9032 3411",
+   "url": "https://www.ulsterreformclub.com",
+   "note": "Belfast club founded 1880s.",
+   "lat": 54.5998,
+   "lng": -5.93105
+  },
+  {
+   "id": "st-paul-s-club",
+   "name": "St Paul's Club",
+   "cat": "access",
+   "sub": "Private members' club",
+   "town": "Birmingham",
+   "address": "Edgbaston Hall, Church Road, Birmingham B15 3TB",
+   "phone": "0121 674 4260",
+   "url": "https://www.stpaulsclub.co.uk",
+   "note": "Birmingham members' club at Edgbaston Hall.",
+   "lat": 52.46099,
+   "lng": -1.91808
+  },
+  {
+   "id": "goodwood",
+   "name": "Goodwood",
+   "cat": "access",
+   "sub": "Events & estate",
+   "town": "Chichester",
+   "address": "Goodwood House, Chichester PO18 0PX",
+   "phone": "",
+   "url": "https://www.goodwood.com",
+   "note": "Estate with motor racing, horse racing and the Festival of Speed.",
+   "lat": 50.87214,
+   "lng": -0.73962
+  },
+  {
+   "id": "badminton-horse-trials",
+   "name": "Badminton Horse Trials",
+   "cat": "access",
+   "sub": "Events",
+   "town": "Badminton",
+   "address": "Horse Trials Office, Badminton GL9 1DF",
+   "phone": "01454 218272",
+   "url": "https://www.badminton-horse.co.uk",
+   "note": "World-famous horse trials.",
+   "lat": 51.54254,
+   "lng": -2.28463
+  },
+  {
+   "id": "c-hoare-co",
+   "name": "C. Hoare & Co",
+   "cat": "wealth",
+   "sub": "Private bank",
+   "town": "London",
+   "address": "37 Fleet Street, London EC4Y 1BT",
+   "phone": "",
+   "url": "https://www.hoaresbank.co.uk",
+   "note": "Family-owned private bank since 1672.",
+   "lat": 51.51395,
+   "lng": -0.10975
+  },
+  {
+   "id": "rathbones",
+   "name": "Rathbones",
+   "cat": "wealth",
+   "sub": "Wealth management",
+   "town": "London",
+   "address": "30 Gresham Street, London EC2V 7QN",
+   "phone": "",
+   "url": "https://www.rathbones.com",
+   "note": "Wealth managers founded in Liverpool in 1742.",
+   "lat": 51.5151,
+   "lng": -0.09295
+  },
+  {
+   "id": "arbuthnot-latham",
+   "name": "Arbuthnot Latham",
+   "cat": "wealth",
+   "sub": "Private bank",
+   "town": "London",
+   "address": "Arbuthnot House, 20 Finsbury Circus, London EC2M 7EA",
+   "phone": "020 7012 2500",
+   "url": "https://www.arbuthnotlatham.co.uk",
+   "note": "Private bank since 1833.",
+   "lat": 51.51733,
+   "lng": -0.08591
+  },
+  {
+   "id": "brown-shipley",
+   "name": "Brown Shipley",
+   "cat": "wealth",
+   "sub": "Wealth management",
+   "town": "Manchester",
+   "address": "No. 1 Spinningfields, 1 Hardman Square, Manchester M3 3EB",
+   "phone": "0161 214 6500",
+   "url": "https://www.brownshipley.com",
+   "note": "Wealth managers since 1810.",
+   "lat": 53.47961,
+   "lng": -2.25221
+  },
+  {
+   "id": "speirs-jeffrey",
+   "name": "Speirs & Jeffrey",
+   "cat": "wealth",
+   "sub": "Wealth management",
+   "town": "Glasgow",
+   "address": "George House, 50 George Square, Glasgow G2 1EH",
+   "phone": "",
+   "url": "https://www.speirsjeffrey.co.uk",
+   "note": "Glasgow investment managers.",
+   "lat": 55.86167,
+   "lng": -4.24934
+  },
+  {
+   "id": "redmayne-bentley",
+   "name": "Redmayne Bentley",
+   "cat": "wealth",
+   "sub": "Stockbrokers",
+   "town": "Leeds",
+   "address": "3 Wellington Place, Leeds LS1 4AP",
+   "phone": "",
+   "url": "https://www.redmayne.co.uk",
+   "note": "Stockbrokers since 1875.",
+   "lat": 53.79547,
+   "lng": -1.55573
+  },
+  {
+   "id": "farrer-co",
+   "name": "Farrer & Co",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "London",
+   "address": "66 Lincoln's Inn Fields, London WC2A 3LH",
+   "phone": "",
+   "url": "https://www.farrer.co.uk",
+   "note": "Law firm for families and estates since 1701.",
+   "lat": 51.51629,
+   "lng": -0.11883
+  },
+  {
+   "id": "turcan-connell",
+   "name": "Turcan Connell",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Edinburgh",
+   "address": "Princes Exchange, 1 Earl Grey Street, Edinburgh EH3 9EE",
+   "phone": "0131 228 8111",
+   "url": "https://www.turcanconnell.com",
+   "note": "Scottish private client law and tax.",
+   "lat": 55.94445,
+   "lng": -3.20401
+  },
+  {
+   "id": "wilsons-solicitors",
+   "name": "Wilsons Solicitors",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Salisbury",
+   "address": "Alexandra House, St Johns Street, Salisbury SP1 2SB",
+   "phone": "01722 412412",
+   "url": "https://www.wilsonsllp.com",
+   "note": "Law firm for landed estates and families.",
+   "lat": 51.06631,
+   "lng": -1.79338
+  },
+  {
+   "id": "thrings",
+   "name": "Thrings",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Bath",
+   "address": "2 Queen Square, Bath BA1 2HQ",
+   "phone": "",
+   "url": "https://www.thrings.com",
+   "note": "Long-established West Country law firm for families, farms and estates.",
+   "lat": 51.38358,
+   "lng": -2.36287
+  },
+  {
+   "id": "birketts",
+   "name": "Birketts",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Ipswich",
+   "address": "Providence House, Ipswich IP1 1QJ",
+   "phone": "",
+   "url": "https://www.birketts.co.uk",
+   "note": "East Anglian law firm.",
+   "lat": 52.05359,
+   "lng": 1.14687
+  },
+  {
+   "id": "brabners",
+   "name": "Brabners",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Liverpool",
+   "address": "Horton House, Exchange Flags, Liverpool L2 3YL",
+   "phone": "",
+   "url": "https://www.brabners.com",
+   "note": "North West law firm.",
+   "lat": 53.40779,
+   "lng": -2.99245
+  },
+  {
+   "id": "lodders",
+   "name": "Lodders",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Stratford-upon-Avon",
+   "address": "Number Ten, Elm Court, Arden Street, Stratford-upon-Avon CV37 6PA",
+   "phone": "",
+   "url": "https://www.lodders.co.uk",
+   "note": "Long-established Midlands law firm for families and landowners.",
+   "lat": 52.19416,
+   "lng": -1.71199
+  },
+  {
+   "id": "michelmores",
+   "name": "Michelmores",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Exeter",
+   "address": "Woodwater House, Pynes Hill, Exeter EX2 5WR",
+   "phone": "",
+   "url": "https://www.michelmores.com",
+   "note": "South West law firm.",
+   "lat": 50.70656,
+   "lng": -3.49045
+  },
+  {
+   "id": "carson-mcdowell",
+   "name": "Carson McDowell",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Belfast",
+   "address": "Murray House, Murray Street, Belfast BT1 6DN",
+   "phone": "028 9024 4951",
+   "url": "https://www.carson-mcdowell.com",
+   "note": "Northern Ireland law firm.",
+   "lat": 54.5963,
+   "lng": -5.93608
+  },
+  {
+   "id": "hugh-james",
+   "name": "Hugh James",
+   "cat": "wealth",
+   "sub": "Private client law",
+   "town": "Cardiff",
+   "address": "Two Central Square, Cardiff CF10 1FS",
+   "phone": "0333 016 2222",
+   "url": "https://www.hughjames.com",
+   "note": "Welsh law firm.",
+   "lat": 51.47663,
+   "lng": -3.18049
+  },
+  {
+   "id": "lycetts",
+   "name": "Lycetts",
+   "cat": "wealth",
+   "sub": "Collection & estate insurance",
+   "town": "Newcastle upon Tyne",
+   "address": "Bank House, Pilgrim Street, Newcastle upon Tyne NE1 6QF",
+   "phone": "",
+   "url": "https://www.lycetts.co.uk",
+   "note": "Insurance for country homes, estates and collections.",
+   "lat": 54.9722,
+   "lng": -1.60985
+  },
+  {
+   "id": "adrian-flux",
+   "name": "Adrian Flux",
+   "cat": "wealth",
+   "sub": "Classic car insurance",
+   "town": "King's Lynn",
+   "address": "East Winch Hall, East Winch Road, King's Lynn PE32 1HN",
+   "phone": "",
+   "url": "https://www.adrianflux.co.uk",
+   "note": "Specialist insurance broker.",
+   "lat": 52.71618,
+   "lng": 0.51955
+  },
+  {
+   "id": "hagerty-uk",
+   "name": "Hagerty UK",
+   "cat": "wealth",
+   "sub": "Classic car insurance",
+   "town": "Bicester",
+   "address": "141b The Command Works, Bicester Heritage, Bicester OX27 8FZ",
+   "phone": "",
+   "url": "https://www.hagerty.co.uk",
+   "note": "Classic car insurance.",
+   "lat": 51.91419,
+   "lng": -1.14244
+  },
+  {
+   "id": "howden-scotland-was-bruce-stevenson",
+   "name": "Howden Scotland (was Bruce Stevenson)",
+   "cat": "wealth",
+   "sub": "Collection & home insurance",
+   "town": "Edinburgh",
+   "address": "76 Coburg Street, Edinburgh EH6 6HJ",
+   "phone": "0131 553 2293",
+   "url": "https://www.howdengroup.com/uk-en/scotland",
+   "note": "Scottish private client insurance, incl. homes and collections.",
+   "lat": 55.97577,
+   "lng": -3.17848
+  },
+  {
+   "id": "blackstone-consultancy",
+   "name": "Blackstone Consultancy",
+   "cat": "wealth",
+   "sub": "Security",
+   "town": "London",
+   "address": "60 Cannon Street, London EC4N 6NP",
+   "phone": "020 3833 1061",
+   "url": "https://www.blackstoneconsultancy.com",
+   "note": "Private security and close protection.",
+   "lat": 51.51189,
+   "lng": -0.09235
+  },
+  {
+   "id": "the-london-general-practice",
+   "name": "The London General Practice",
+   "cat": "health",
+   "sub": "Private GP",
+   "town": "London",
+   "address": "114a Harley Street, London W1G 7JL",
+   "phone": "020 7935 1000",
+   "url": "https://www.thelondongeneralpractice.com",
+   "note": "Private GP practice on Harley Street.",
+   "lat": 51.52188,
+   "lng": -0.14805
+  },
+  {
+   "id": "king-edward-vii-s-hospital",
+   "name": "King Edward VII's Hospital",
+   "cat": "health",
+   "sub": "Private hospital",
+   "town": "London",
+   "address": "5–10 Beaumont Street, Marylebone, London W1G 6AA",
+   "phone": "020 7486 4411",
+   "url": "https://www.kingedwardvii.co.uk",
+   "note": "Private hospital founded 1899.",
+   "lat": 51.52078,
+   "lng": -0.1503
+  },
+  {
+   "id": "hospital-of-st-john-st-elizabeth",
+   "name": "Hospital of St John & St Elizabeth",
+   "cat": "health",
+   "sub": "Private hospital",
+   "town": "London",
+   "address": "60 Grove End Road, St John's Wood, London NW8 9NH",
+   "phone": "020 7806 4000",
+   "url": "https://www.hje.org.uk",
+   "note": "Charitable hospital founded 1856.",
+   "lat": 51.53348,
+   "lng": -0.17544
+  },
+  {
+   "id": "lanserhof-at-the-arts-club",
+   "name": "Lanserhof at The Arts Club",
+   "cat": "health",
+   "sub": "Longevity & wellness",
+   "town": "London",
+   "address": "17–18 Dover Street, London W1S 4LT",
+   "phone": "",
+   "url": "https://lhtac.com",
+   "note": "Medical wellness club in Mayfair.",
+   "lat": 51.50862,
+   "lng": -0.1422
+  },
+  {
+   "id": "champneys-tring",
+   "name": "Champneys Tring",
+   "cat": "health",
+   "sub": "Health spa",
+   "town": "Tring",
+   "address": "Chesham Road, Wigginton, Tring HP23 6HY",
+   "phone": "",
+   "url": "https://www.champneys.com",
+   "note": "Health resort.",
+   "lat": 51.77105,
+   "lng": -0.62786
+  },
+  {
+   "id": "ragdale-hall",
+   "name": "Ragdale Hall",
+   "cat": "health",
+   "sub": "Health spa",
+   "town": "Melton Mowbray",
+   "address": "Ragdale Village, Melton Mowbray LE14 3PB",
+   "phone": "01664 434831",
+   "url": "https://www.ragdalehall.co.uk",
+   "note": "Spa in a Victorian hall.",
+   "lat": 52.77537,
+   "lng": -1.03067
+  },
+  {
+   "id": "turkish-baths-harrogate",
+   "name": "Turkish Baths Harrogate",
+   "cat": "health",
+   "sub": "Victorian baths",
+   "town": "Harrogate",
+   "address": "Parliament Street, Harrogate HG1 2WH",
+   "phone": "01423 556746",
+   "url": "https://www.turkishbathsharrogate.co.uk",
+   "note": "Victorian Turkish baths from 1897.",
+   "lat": 53.99435,
+   "lng": -1.54407
+  },
+  {
+   "id": "thermae-bath-spa",
+   "name": "Thermae Bath Spa",
+   "cat": "health",
+   "sub": "Spa",
+   "town": "Bath",
+   "address": "The Hetling Pump Room, Hot Bath Street, Bath BA1 1SJ",
+   "phone": "",
+   "url": "https://www.thermaebathspa.com",
+   "note": "Britain's natural thermal spa.",
+   "lat": 51.38032,
+   "lng": -2.36151
+  },
+  {
+   "id": "gabbitas-education",
+   "name": "Gabbitas Education",
+   "cat": "kids",
+   "sub": "Education consultants",
+   "town": "London",
+   "address": "17 Cavendish Square, London W1G 0PH",
+   "phone": "",
+   "url": "https://www.gabbitas.com",
+   "note": "Education consultants since 1873.",
+   "lat": 51.51667,
+   "lng": -0.14619
+  },
+  {
+   "id": "bonas-macfarlane",
+   "name": "Bonas MacFarlane",
+   "cat": "kids",
+   "sub": "Tutors & school placement",
+   "town": "London",
+   "address": "18 The Power Station, London SW11 8BZ",
+   "phone": "020 7223 2794",
+   "url": "https://www.bonasmacfarlane.co.uk",
+   "note": "Tutoring and education consultants.",
+   "lat": 51.48151,
+   "lng": -0.14544
+  },
+  {
+   "id": "keystone-tutors",
+   "name": "Keystone Tutors",
+   "cat": "kids",
+   "sub": "Tutors",
+   "town": "London",
+   "address": "5 Blythe Mews, London W14 0HW",
+   "phone": "",
+   "url": "https://www.keystonetutors.com",
+   "note": "Private tutors.",
+   "lat": 51.49881,
+   "lng": -0.21868
+  },
+  {
+   "id": "norland",
+   "name": "Norland",
+   "cat": "kids",
+   "sub": "Nannies",
+   "town": "Bath",
+   "address": "39–41 Upper Oldfield Park, Bath BA2 3LB",
+   "phone": "",
+   "url": "https://www.norland.ac.uk",
+   "note": "Nanny training college since 1892.",
+   "lat": 51.37661,
+   "lng": -2.37406
+  },
+  {
+   "id": "tinies",
+   "name": "Tinies",
+   "cat": "kids",
+   "sub": "Nanny agency",
+   "town": "Stokenchurch",
+   "address": "Beacon House, Stokenchurch Business Park, Ibstone Road, Stokenchurch HP14 3FE",
+   "phone": "",
+   "url": "https://www.tinies.com",
+   "note": "Nanny and childcare agency.",
+   "lat": 51.66007,
+   "lng": -0.91486
+  },
+  {
+   "id": "oxbridge-applications",
+   "name": "Oxbridge Applications",
+   "cat": "kids",
+   "sub": "University placement",
+   "town": "London",
+   "address": "58 Buckingham Gate, London SW1E 6AJ",
+   "phone": "020 7499 2394",
+   "url": "https://www.oxbridgeapplications.com",
+   "note": "Oxbridge admissions support.",
+   "lat": 51.49809,
+   "lng": -0.13651
+  },
+  {
+   "id": "black-tomato",
+   "name": "Black Tomato",
+   "cat": "travel",
+   "sub": "Bespoke travel",
+   "town": "London",
+   "address": "Albert House, 256–260 Old Street, London EC1V 9DD",
+   "phone": "020 7426 9888",
+   "url": "https://www.blacktomato.com",
+   "note": "Tailor-made luxury travel.",
+   "lat": 51.52589,
+   "lng": -0.08516
+  },
+  {
+   "id": "abercrombie-kent",
+   "name": "Abercrombie & Kent",
+   "cat": "travel",
+   "sub": "Bespoke travel",
+   "town": "Cheltenham",
+   "address": "St Georges House, Ambrose Street, Cheltenham GL50 3LG",
+   "phone": "",
+   "url": "https://www.abercrombiekent.co.uk",
+   "note": "Luxury travel since 1962.",
+   "lat": 51.90244,
+   "lng": -2.07984
+  },
+  {
+   "id": "scott-dunn",
+   "name": "Scott Dunn",
+   "cat": "travel",
+   "sub": "Bespoke travel",
+   "town": "London",
+   "address": "Mindspace Hammersmith, 1 Butterwick, London W6 8DL",
+   "phone": "",
+   "url": "https://www.scottdunn.com",
+   "note": "Luxury tailor-made holidays.",
+   "lat": 51.49167,
+   "lng": -0.22188
+  },
+  {
+   "id": "steppes-travel",
+   "name": "Steppes Travel",
+   "cat": "travel",
+   "sub": "Bespoke travel",
+   "town": "Cirencester",
+   "address": "51 Castle Street, Cirencester GL7 1QD",
+   "phone": "01285 880980",
+   "url": "https://www.steppestravel.com",
+   "note": "Tailor-made travel.",
+   "lat": 51.71625,
+   "lng": -1.97005
+  },
+  {
+   "id": "audley-travel",
+   "name": "Audley Travel",
+   "cat": "travel",
+   "sub": "Bespoke travel",
+   "town": "Witney",
+   "address": "The New Mill, New Mill Lane, Witney OX29 9SX",
+   "phone": "",
+   "url": "https://www.audleytravel.com",
+   "note": "Tailor-made travel.",
+   "lat": 51.7971,
+   "lng": -1.50536
+  },
+  {
+   "id": "wilderness-scotland",
+   "name": "Wilderness Scotland",
+   "cat": "travel",
+   "sub": "Private tours",
+   "town": "Aviemore",
+   "address": "Dalfaber Drive, Aviemore PH22 1ST",
+   "phone": "",
+   "url": "https://www.wildernessscotland.com",
+   "note": "Small-group and private Scottish adventures.",
+   "lat": 57.20238,
+   "lng": -3.81926
+  },
+  {
+   "id": "inntravel",
+   "name": "Inntravel",
+   "cat": "travel",
+   "sub": "Slow travel",
+   "town": "York",
+   "address": "Near Castle Howard, York YO60 7JU",
+   "phone": "",
+   "url": "https://www.inntravel.co.uk",
+   "note": "Walking and slow holidays.",
+   "lat": 54.084,
+   "lng": -0.90997
+  },
+  {
+   "id": "gleneagles",
+   "name": "Gleneagles",
+   "cat": "travel",
+   "sub": "Country estate hotel",
+   "town": "Auchterarder",
+   "address": "The Gleneagles Hotel, Auchterarder PH3 1NF",
+   "phone": "01764 662231",
+   "url": "https://www.gleneagles.com",
+   "note": "Country estate hotel with shooting and fishing.",
+   "lat": 56.28336,
+   "lng": -3.75208
+  },
+  {
+   "id": "glenapp-castle",
+   "name": "Glenapp Castle",
+   "cat": "travel",
+   "sub": "Castle hotel",
+   "town": "Ballantrae",
+   "address": "Glenapp Castle, Ballantrae KA26 0NZ",
+   "phone": "01465 831212",
+   "url": "https://www.glenappcastle.com",
+   "note": "Castle hotel in Ayrshire.",
+   "lat": 55.08356,
+   "lng": -4.99145
+  },
+  {
+   "id": "lucknam-park",
+   "name": "Lucknam Park",
+   "cat": "travel",
+   "sub": "Country house hotel",
+   "town": "Colerne",
+   "address": "Lucknam Park, Colerne SN14 8AZ",
+   "phone": "01225 742777",
+   "url": "https://www.lucknampark.co.uk",
+   "note": "Palladian mansion hotel near Bath.",
+   "lat": 51.45464,
+   "lng": -2.25643
+  },
+  {
+   "id": "gidleigh-park",
+   "name": "Gidleigh Park",
+   "cat": "travel",
+   "sub": "Country house hotel",
+   "town": "Chagford",
+   "address": "Gidleigh Park, Chagford TQ13 8HH",
+   "phone": "01647 432367",
+   "url": "https://www.gidleigh.co.uk",
+   "note": "Country house hotel on Dartmoor.",
+   "lat": 50.67462,
+   "lng": -3.86858
+  },
+  {
+   "id": "the-fife-arms",
+   "name": "The Fife Arms",
+   "cat": "travel",
+   "sub": "Highland hotel",
+   "town": "Braemar",
+   "address": "Mar Road, Braemar AB35 5YN",
+   "phone": "01339 720200",
+   "url": "https://www.thefifearms.com",
+   "note": "Highland hotel full of art.",
+   "lat": 57.006,
+   "lng": -3.39994
+  },
+  {
+   "id": "inverlochy-castle",
+   "name": "Inverlochy Castle",
+   "cat": "travel",
+   "sub": "Castle hotel",
+   "town": "Fort William",
+   "address": "Torlundy, Fort William PH33 6SN",
+   "phone": "01397 702177",
+   "url": "https://www.inverlochycastlehotel.com",
+   "note": "Castle hotel below Ben Nevis.",
+   "lat": 56.84807,
+   "lng": -5.04932
+  },
+  {
+   "id": "chatsworth",
+   "name": "Chatsworth",
+   "cat": "travel",
+   "sub": "Estate & experiences",
+   "town": "Bakewell",
+   "address": "Chatsworth, Bakewell DE45 1PP",
+   "phone": "",
+   "url": "https://www.chatsworth.org",
+   "note": "Historic house and estate.",
+   "lat": 53.22759,
+   "lng": -1.61141
+  },
+  {
+   "id": "bettys",
+   "name": "Bettys",
+   "cat": "travel",
+   "sub": "Tea rooms",
+   "town": "Harrogate",
+   "address": "1 Parliament Street, Harrogate HG1 2QU",
+   "phone": "",
+   "url": "https://www.bettys.co.uk",
+   "note": "Family tea rooms since 1919.",
+   "lat": 53.99324,
+   "lng": -1.54295
+  }
+ ],
+ "connections": []
+}
