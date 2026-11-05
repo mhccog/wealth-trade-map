@@ -207,10 +207,18 @@ function renderConnectBar() {
 }
 
 /* ---------------- map & globe ---------------- */
+const MAX_ZOOM = 19; // street level; vector tiles stop at z14 and are over-zoomed, so nothing goes blank
+// Lowest zoom = whole world (map) or whole globe with a margin (globe), worked out from the map's size.
+function setZoomLimits() {
+  if (!map) return; const c = map.getContainer(); const m = Math.max(120, Math.min(c.clientWidth, c.clientHeight));
+  const min = U.globe ? Math.log2(0.8 * m * Math.PI / 512) : Math.log2(Math.max(c.clientWidth, 256) / 512);
+  map.setMinZoom(Math.max(-2, +min.toFixed(2))); map.setMaxZoom(MAX_ZOOM);
+}
 function initMap() {
   if (!window.maplibregl) { $('#mapfail').hidden = false; return; }
   try {
-    map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron', bounds: [[-8.2, 49.9], [1.8, 58.7]], fitBoundsOptions: { padding: 30 }, attributionControl: { compact: true }, dragRotate: false, maxPitch: 0 });
+    map = new maplibregl.Map({ container: 'map', style: 'https://tiles.openfreemap.org/styles/positron', bounds: [[-8.2, 49.9], [1.8, 58.7]], fitBoundsOptions: { padding: 30 }, attributionControl: { compact: true }, dragRotate: false, maxPitch: 0, minZoom: 0, maxZoom: MAX_ZOOM, renderWorldCopies: true });
+    map.on('resize', setZoomLimits); setZoomLimits();
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
     map.touchZoomRotate.disableRotation();
     map.on('style.load', () => {
@@ -220,7 +228,7 @@ function initMap() {
       map.addLayer({ id: 'links', type: 'line', source: 'links', paint: { 'line-color': '#8b2e2a', 'line-width': 2.2, 'line-opacity': .75, 'line-dasharray': [2, 1.5] } });
       map.addLayer({ id: 'biz-halo', type: 'circle', source: 'biz', paint: { 'circle-radius': ['case', ['get', 'sel'], 13, 0], 'circle-color': ['get', 'color'], 'circle-opacity': .25 } });
       map.addLayer({ id: 'biz', type: 'circle', source: 'biz', paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 3.5, 6, 5.5, 12, 8], 'circle-color': ['get', 'color'], 'circle-stroke-color': '#fffaf0', 'circle-stroke-width': 1.5 } });
-      mapReady = true; if (U.globe) map.setProjection({ type: 'globe' }); renderMap();
+      mapReady = true; if (U.globe) map.setProjection({ type: 'globe' }); setZoomLimits(); renderMap();
     });
     map.on('click', 'biz', e => { const f = e.features[0]; if (f) pick(f.properties.id, true); });
     map.on('mouseenter', 'biz', () => (map.getCanvas().style.cursor = 'pointer'));
@@ -251,6 +259,7 @@ function setGlobe(on) {
   U.globe = on; $('#btn-globe').setAttribute('aria-pressed', on); $('#btn-map').setAttribute('aria-pressed', !on);
   if (mobile() && U.tab !== 'map') setTab('map');
   if (!mapReady) return;
+  setZoomLimits();
   if (on) { map.setProjection({ type: 'globe' }); map.flyTo({ center: [-3, 52], zoom: 1.6, duration: 1500 }); }
   else { map.setProjection({ type: 'mercator' }); U.towns.size ? fitVisible() : map.fitBounds([[-8.2, 49.9], [1.8, 58.7]], { padding: 30, duration: 900 }); }
 }

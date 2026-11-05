@@ -128,3 +128,4 @@ dialog.cfm{max-width:min(360px,92vw)}
 .btn.del{background:#a3261d;color:#fff;border-color:#a3261d}
 .btn.del:hover{background:#8a1f17;border-color:#8a1f17}
 @media (max-width:600px){.cfmform .btns .btn{flex:1;padding:11px 14px}}
+.mapwrap,#map{touch-action:none;overscroll-behavior:contain}
